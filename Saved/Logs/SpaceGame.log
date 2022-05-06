@@ -1568,3 +1568,1469 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.06-00.30.52:793][971]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F124B0B01_1344049976
 [2022.05.06-00.30.52:793][971]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F12500B01_1287852859
 [2022.05.06-00.30.52:793][971]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F12480B01_1543577447
+[2022.05.06-00.32.57:342][867]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-00.32.57:348][867]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-00.32.57:348][867]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-00.32.57:348][867]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-00.32.57:348][867]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-00.32.57:348][867]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-00.32.57:349][867]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.05.06-00.32.57:349][867]LogWorldPartition: Display: GenerateStreaming took 246 us
+[2022.05.06-00.32.57:349][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-00.32.57:349][867]PIE: New page: PIE session: TopDownMap (May 5, 2022, 12:32:57 PM)
+[2022.05.06-00.32.57:349][867]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-00.32.57:356][867]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-00.32.57:356][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007067s)
+[2022.05.06-00.32.57:356][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007116s)
+[2022.05.06-00.32.57:356][867]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-00.32.57:357][867]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-00.32.57:357][867]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-00.32.57:357][867]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-00.32.57:358][867]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-00.32.57:358][867]LogPlayLevel: PIE: World Init took: (0.002336s)
+[2022.05.06-00.32.57:408][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.05.06-00.32.57:409][867]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.05.06-00.32.57:409][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-00.32.57:409][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-00.32.57:409][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-00.32.57:409][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-00.32.57:409][867]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-00.32.57:409][867]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-00.32.57:409][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-00.32.57:409][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-00.32.57:410][867]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-00.32.57:410][867]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-00.32.57:410][867]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-00.32.57:412][867]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-00.32.57:430][867]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-00.32.57:430][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-00.32.57:430][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-00.32.57:430][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-00.32.57:431][867]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2022.05.06-00.32.57:431][867]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2022.05.06-00.32.57:432][867]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2022.05.06-00.32.57:432][867]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2022.05.06-00.32.57:432][867]LogInit: FAudioDevice initialized.
+[2022.05.06-00.32.57:432][867]LogAudio: Display: Audio Device (ID: 13) registered with world 'TopDownMap'.
+[2022.05.06-00.32.57:516][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-00.32.57:517][867]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-00.32.57:521][867]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-18.32.57
+[2022.05.06-00.32.57:521][867]LogWorld: Bringing up level for play took: 0.004146
+[2022.05.06-00.32.57:524][867]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2022.05.06-00.32.57:524][867]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-00.32.57:525][867]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-00.32.57:525][867]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-00.32.57:527][867]PIE: Server logged in
+[2022.05.06-00.32.57:529][867]PIE: Play in editor total start time 0.181 seconds.
+[2022.05.06-00.33.19:168][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-00.33.19:168][169]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-00.33.19:168][169]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-00.33.19:179][169]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-00.33.19:180][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-00.33.19:189][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-00.33.19:197][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-00.33.19:251][169]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.05.06-00.33.19:253][169]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.05.06-00.33.19:262][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.05.06-00.33.19:287][170]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.05.06-00.33.38:050][259]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-00.33.38:057][259]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-00.33.38:058][259]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-00.33.38:058][259]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-00.33.38:058][259]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-00.33.38:058][259]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-00.33.38:058][259]LogWorldPartition: Display: GetPartitionedActors took 44 us
+[2022.05.06-00.33.38:058][259]LogWorldPartition: Display: GenerateStreaming took 234 us
+[2022.05.06-00.33.38:058][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-00.33.38:058][259]PIE: New page: PIE session: TopDownMap (May 5, 2022, 12:33:38 PM)
+[2022.05.06-00.33.38:058][259]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-00.33.38:064][259]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-00.33.38:064][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005705s)
+[2022.05.06-00.33.38:064][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005753s)
+[2022.05.06-00.33.38:064][259]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-00.33.38:064][259]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-00.33.38:065][259]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-00.33.38:065][259]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-00.33.38:066][259]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-00.33.38:066][259]LogPlayLevel: PIE: World Init took: (0.002134s)
+[2022.05.06-00.33.38:121][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.05.06-00.33.38:122][259]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.05.06-00.33.38:122][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-00.33.38:122][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-00.33.38:123][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-00.33.38:123][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-00.33.38:123][259]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-00.33.38:123][259]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-00.33.38:123][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-00.33.38:123][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-00.33.38:123][259]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-00.33.38:123][259]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-00.33.38:123][259]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-00.33.38:125][259]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-00.33.38:142][259]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-00.33.38:142][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-00.33.38:142][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-00.33.38:142][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-00.33.38:143][259]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.05.06-00.33.38:143][259]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.05.06-00.33.38:144][259]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.05.06-00.33.38:144][259]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.05.06-00.33.38:144][259]LogInit: FAudioDevice initialized.
+[2022.05.06-00.33.38:144][259]LogAudio: Display: Audio Device (ID: 14) registered with world 'TopDownMap'.
+[2022.05.06-00.33.38:212][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-00.33.38:212][259]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-00.33.38:214][259]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-18.33.38
+[2022.05.06-00.33.38:215][259]LogWorld: Bringing up level for play took: 0.002015
+[2022.05.06-00.33.38:217][259]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2022.05.06-00.33.38:218][259]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-00.33.38:218][259]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-00.33.38:218][259]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-00.33.38:221][259]PIE: Server logged in
+[2022.05.06-00.33.38:222][259]PIE: Play in editor total start time 0.166 seconds.
+[2022.05.06-00.33.40:038][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-00.33.40:038][428]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-00.33.40:042][428]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-00.33.40:061][428]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-00.33.40:062][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-00.33.40:072][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-00.33.40:079][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-00.33.40:130][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.05.06-00.33.40:131][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.05.06-00.33.40:138][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.05.06-00.33.40:163][429]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.05.06-00.36.42:331][432]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.05.06-00.36.42:342][432]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.06-00.36.47:880][950]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.06-00.36.47:905][950]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.06-00.36.47:918][951]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.06-00.36.49:210][ 89]LogContentBrowser: Attempting asset rename: NewFolder -> UI
+[2022.05.06-00.36.49:210][ 89]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.06-00.36.54:744][616]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.05.06-00.37.02:526][616]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2022.05.06-00.37.02:542][616]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.05.06-00.37.02:550][616]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.05.06-00.37.02:579][618]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2022.05.06-00.37.11:589][584]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> PlanetUI
+[2022.05.06-00.37.11:605][584]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.05.06-00.37.14:726][900]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-00.37.14:727][900]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-00.37.14:734][900]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-00.37.14:742][900]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2022.05.06-00.37.15:109][900]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-00.37.15:109][900]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-00.37.15:313][900]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2022.05.06-00.39.07:319][896]LogSlate: Took 0.017024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.05.06-00.44.07:043][612]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-00.44.07:173][612]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.05.06-00.44.07:739][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-00.44.07:744][647]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-00.44.07:744][647]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUIAE096ACA46AF50CF28F895A7B00CBE8D.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-00.44.07:759][647]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-00.44.07:759][647]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-00.44.31:673][967]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-00.44.31:776][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.05.06-00.44.32:239][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-00.44.32:243][992]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-00.44.32:243][992]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI4C8EE052427013C7CF57BBABA8BDF967.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-00.44.32:258][992]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-00.44.32:258][992]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-00.44.53:268][117]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2022.05.06-00.44.53:279][117]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2022.05.06-00.44.53:297][118]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2022.05.06-00.44.54:912][285]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> NewUserDefinedStruct
+[2022.05.06-00.44.54:944][285]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2022.05.06-00.44.58:417][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.05.06-00.44.59:824][592]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.06-00.44.59:911][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2022.05.06-00.45.04:184][884]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2022.05.06-00.45.04:195][884]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2022.05.06-00.45.04:212][885]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2022.05.06-00.45.11:928][685]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> PlanetClassification_E
+[2022.05.06-00.45.11:929][685]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2022.05.06-00.45.13:293][825]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/SpaceGame/SpaceActors/Planets/PlanetClassification_E.PlanetClassification_E
+[2022.05.06-00.49.51:849][589]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.06-00.49.51:849][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/PlanetClassification_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/PlanetClassification_E.uasset" SILENT=true
+[2022.05.06-00.49.51:850][589]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/PlanetClassification_E
+[2022.05.06-00.49.51:850][589]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetClassification_EDD4F0B0C4876CE4A00FC878CAEC2CB6D.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/PlanetClassification_E.uasset'
+[2022.05.06-00.49.51:863][589]AssetCheck: New page: Asset Save: PlanetClassification_E
+[2022.05.06-00.49.51:863][589]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/Planets/PlanetClassification_E.PlanetClassification_E
+[2022.05.06-00.49.51:990][604]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.06-00.49.51:990][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/PlanetClassification_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/PlanetClassification_E.uasset" SILENT=true
+[2022.05.06-00.49.51:991][604]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/PlanetClassification_E
+[2022.05.06-00.49.51:991][604]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetClassification_E93A5AFE845C0E345A0BCB898276051BF.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/PlanetClassification_E.uasset'
+[2022.05.06-00.49.52:007][604]AssetCheck: New page: Asset Save: PlanetClassification_E
+[2022.05.06-00.49.52:007][604]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/Planets/PlanetClassification_E.PlanetClassification_E
+[2022.05.06-00.53.05:180][544]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-00.53.05:257][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.05.06-00.53.05:756][579]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.06-00.53.05:761][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-00.53.05:765][579]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-00.53.05:765][579]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUIF05996494DAEF752AB67669BEFAFD653.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-00.53.05:778][579]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-00.53.05:779][579]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-00.53.05:903][592]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.05.06-00.53.05:903][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-00.53.05:907][592]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-00.53.05:907][592]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI96F814C34F6511A4D13017B10C2CE56C.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-00.53.05:921][592]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-00.53.05:921][592]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-00.56.44:410][135]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-00.56.44:505][135]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.05.06-00.56.45:081][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-00.56.45:086][174]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-00.56.45:086][174]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUIB84858E743C82BE1274FAF9FC06BF6B0.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-00.56.45:100][174]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-00.56.45:100][174]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-00.59.10:077][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.05.06-00.59.10:080][478]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.073
+[2022.05.06-00.59.10:080][478]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SpaceGame/UI/PlanetUI] ([2] browsable assets)...
+[2022.05.06-00.59.10:084][478]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI]
+[2022.05.06-00.59.10:084][478]OBJ SavePackage: Finished generating thumbnails for package [/Game/SpaceGame/UI/PlanetUI]
+[2022.05.06-00.59.10:084][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/UI/PlanetUI_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.05.06-00.59.10:089][478]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SpaceGame/UI/PlanetUI_Auto1
+[2022.05.06-00.59.10:089][478]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI_Auto19BE276A240C85DEC235D77AD13ABCE82.tmp' to '../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/UI/PlanetUI_Auto1.uasset'
+[2022.05.06-00.59.10:089][478]LogFileHelpers: Auto-saving content packages took 0.010
+[2022.05.06-01.01.34:460][135]LogSlate: Window 'Color Picker' being destroyed
+[2022.05.06-01.01.56:009][775]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.01.56:099][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.05.06-01.01.56:594][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.01.56:599][798]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.01.56:599][798]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI228D073F4D1A506D7D947A9179010517.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.01.56:615][798]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.01.56:615][798]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.06.54:125][718]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.06.54:225][718]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.05.06-01.06.54:760][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.06.54:766][761]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.06.54:766][761]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI725945D9470E1F36FCDF8AA279F46DCB.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.06.54:782][761]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.06.54:782][761]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.09.18:270][966]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.05.06-01.09.18:273][966]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.072
+[2022.05.06-01.09.18:273][966]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SpaceGame/UI/PlanetUI] ([2] browsable assets)...
+[2022.05.06-01.09.18:276][966]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI]
+[2022.05.06-01.09.18:276][966]OBJ SavePackage: Finished generating thumbnails for package [/Game/SpaceGame/UI/PlanetUI]
+[2022.05.06-01.09.18:276][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/UI/PlanetUI_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.05.06-01.09.18:283][966]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SpaceGame/UI/PlanetUI_Auto2
+[2022.05.06-01.09.18:283][966]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI_Auto22941EED04118B140D5AEC6B6768AAF12.tmp' to '../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/UI/PlanetUI_Auto2.uasset'
+[2022.05.06-01.09.18:284][966]LogFileHelpers: Auto-saving content packages took 0.011
+[2022.05.06-01.10.11:088][ 62]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2022.05.06-01.10.11:096][ 62]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2022.05.06-01.10.11:109][ 63]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2022.05.06-01.10.13:818][352]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> Planet_S
+[2022.05.06-01.10.13:848][352]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2022.05.06-01.10.15:439][519]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/SpaceGame/SpaceActors/Planets/Planet_S.Planet_S
+[2022.05.06-01.10.31:528][ 45]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.05.06-01.11.37:207][547]LogClass: Warning: UUserDefinedStructEditorData::RecreateDefaultInstance Cannot parse value. Property: MemberVar_22 String: "0"  Struct: /Game/SpaceGame/SpaceActors/Planets/Planet_S.Planet_S 
+[2022.05.06-01.11.37:207][547]LogBlueprint: Error: [AssetLog] /Game/SpaceGame/SpaceActors/Planets/Planet_S.Planet_S (no disk path found): [Compiler] Cannot parse value. Property: MemberVar_22 String: "0" 
+[2022.05.06-01.11.41:028][896]LogClass: Warning: UUserDefinedStructEditorData::RecreateDefaultInstance Cannot parse value. Property: MemberVar_22 String: "0"  Struct: /Engine/Transient.STRUCT_REINST_Planet_S_50 
+[2022.05.06-01.11.41:036][896]LogClass: Warning: UUserDefinedStructEditorData::RecreateDefaultInstance Cannot parse value. Property: MemberVar_22 String: "0"  Struct: /Engine/Transient.STRUCT_REINST_Planet_S_51 
+[2022.05.06-01.12.43:965][654]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.14.18:256][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet_S.uasset" SILENT=true
+[2022.05.06-01.14.18:258][877]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet_S
+[2022.05.06-01.14.18:258][877]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet_S07A069DA4D54469757CF239183FCC899.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet_S.uasset'
+[2022.05.06-01.14.18:293][877]AssetCheck: New page: Asset Save: Planet_S
+[2022.05.06-01.14.18:293][877]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Planets/Planet_S.Planet_S
+[2022.05.06-01.14.18:414][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet_S.uasset" SILENT=true
+[2022.05.06-01.14.18:416][880]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet_S
+[2022.05.06-01.14.18:416][880]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet_S9914074641AF88446A98209B2384C673.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet_S.uasset'
+[2022.05.06-01.14.18:443][880]AssetCheck: New page: Asset Save: Planet_S
+[2022.05.06-01.14.18:443][880]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Planets/Planet_S.Planet_S
+[2022.05.06-01.14.18:614][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet_S.uasset" SILENT=true
+[2022.05.06-01.14.18:616][887]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet_S
+[2022.05.06-01.14.18:616][887]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet_S4B108DE343BB925B27A1098CB18C76CF.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet_S.uasset'
+[2022.05.06-01.14.18:636][887]AssetCheck: New page: Asset Save: Planet_S
+[2022.05.06-01.14.18:636][887]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Planets/Planet_S.Planet_S
+[2022.05.06-01.14.23:146][167]LogSlate: Window 'Planet_S' being destroyed
+[2022.05.06-01.14.23:181][167]LogSlate: Window 'Planet_S' being destroyed
+[2022.05.06-01.14.26:087][459]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.14.26:185][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.05.06-01.14.26:689][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.14.26:695][501]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.14.26:696][501]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUIBCC92D2240F20010D2409B94F0BE5FF1.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.14.26:713][501]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.14.26:713][501]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.14.48:579][376]BlueprintLog: New page: Compile Planet
+[2022.05.06-01.14.48:703][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.05.06-01.14.48:794][377]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.14.49:215][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.14.49:224][412]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.14.49:225][412]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet9799A9DB496519525911998B88429CC4.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.14.49:248][412]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.14.49:248][412]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.15.38:493][974]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.15.42:924][466]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.15.49:227][173]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.15.59:253][203]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.07:455][ 20]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.34:502][650]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.35:979][785]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.38:089][986]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.39:681][126]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.41:838][325]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.44:868][628]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.47:650][903]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.50:360][147]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.16.54:907][588]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.17.35:176][842]BlueprintLog: New page: Compile Planet
+[2022.05.06-01.17.35:315][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2022.05.06-01.17.35:394][843]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.17.35:704][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.17.35:722][870]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.17.35:722][870]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet4FA2E2894CB44FA52857D89C53A687D5.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.17.35:741][870]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.17.35:741][870]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.18.06:742][578]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2022.05.06-01.18.06:757][578]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2022.05.06-01.18.06:775][579]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2022.05.06-01.18.13:121][ 98]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> ClickableActors_E
+[2022.05.06-01.18.13:123][ 98]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2022.05.06-01.18.14:297][187]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/SpaceGame/SpaceActors/ClickableActors_E.ClickableActors_E
+[2022.05.06-01.18.50:429][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset" SILENT=true
+[2022.05.06-01.18.50:430][396]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors_E
+[2022.05.06-01.18.50:430][396]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActors_EE2A8111345EEE6BCD5BEE7B2A57B6D60.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset'
+[2022.05.06-01.18.50:452][396]AssetCheck: New page: Asset Save: ClickableActors_E
+[2022.05.06-01.18.50:452][396]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/ClickableActors_E.ClickableActors_E
+[2022.05.06-01.18.50:590][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset" SILENT=true
+[2022.05.06-01.18.50:591][405]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors_E
+[2022.05.06-01.18.50:591][405]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActors_E5999323C4578AB62D5C89782382AFCAC.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset'
+[2022.05.06-01.18.50:615][405]AssetCheck: New page: Asset Save: ClickableActors_E
+[2022.05.06-01.18.50:615][405]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/ClickableActors_E.ClickableActors_E
+[2022.05.06-01.19.05:937][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset" SILENT=true
+[2022.05.06-01.19.05:938][176]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors_E
+[2022.05.06-01.19.05:938][176]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActors_E793323574D775EA3DDDA88AD593A6341.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset'
+[2022.05.06-01.19.05:957][176]AssetCheck: New page: Asset Save: ClickableActors_E
+[2022.05.06-01.19.05:957][176]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/ClickableActors_E.ClickableActors_E
+[2022.05.06-01.19.06:270][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset" SILENT=true
+[2022.05.06-01.19.06:271][204]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors_E
+[2022.05.06-01.19.06:271][204]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActors_EE8E443994CBCABDC636A449588DEDDD7.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset'
+[2022.05.06-01.19.06:285][204]AssetCheck: New page: Asset Save: ClickableActors_E
+[2022.05.06-01.19.06:285][204]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/ClickableActors_E.ClickableActors_E
+[2022.05.06-01.19.06:464][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset" SILENT=true
+[2022.05.06-01.19.06:465][218]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors_E
+[2022.05.06-01.19.06:465][218]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActors_E41DF079941045F52B8138CACC94F97E9.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors_E.uasset'
+[2022.05.06-01.19.06:485][218]AssetCheck: New page: Asset Save: ClickableActors_E
+[2022.05.06-01.19.06:485][218]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/ClickableActors_E.ClickableActors_E
+[2022.05.06-01.19.22:440][653]BlueprintLog: New page: Compile ClickableActors
+[2022.05.06-01.19.22:566][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.05.06-01.19.22:701][654]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.19.22:981][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors.uasset" SILENT=true
+[2022.05.06-01.19.23:002][665]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors
+[2022.05.06-01.19.23:002][665]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActors894FBD534A43FF5A0DA331B905A4640F.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors.uasset'
+[2022.05.06-01.19.23:016][665]AssetCheck: New page: Asset Save: ClickableActors
+[2022.05.06-01.19.23:016][665]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/ClickableActors.ClickableActors
+[2022.05.06-01.19.33:825][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.19.33:837][674]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.19.33:837][674]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet073D27524731C32E752102BFF57F803E.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.19.33:854][674]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.19.33:854][674]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.20.52:297][362]LogDerivedDataCache: C:/Users/chalo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.358 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.06-01.22.04:348][963]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.22.04:356][963]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.22.04:356][963]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.22.04:356][963]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.22.04:356][963]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.22.04:356][963]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.22.04:356][963]LogWorldPartition: Display: GetPartitionedActors took 51 us
+[2022.05.06-01.22.04:356][963]LogWorldPartition: Display: GenerateStreaming took 268 us
+[2022.05.06-01.22.04:362][963]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.05.06-01.22.04:363][963]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2022.05.06-01.22.04:441][963]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.05.06-01.22.04:444][963]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
+[2022.05.06-01.22.04:444][963]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:22:04 PM)
+[2022.05.06-01.22.04:444][963]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.22.04:450][963]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.22.04:450][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006069s)
+[2022.05.06-01.22.04:450][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006120s)
+[2022.05.06-01.22.04:451][963]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.22.04:451][963]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.22.04:452][963]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.22.04:452][963]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.22.04:453][963]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.22.04:453][963]LogPlayLevel: PIE: World Init took: (0.003105s)
+[2022.05.06-01.22.04:514][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.05.06-01.22.04:515][963]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.05.06-01.22.04:515][963]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.22.04:515][963]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.22.04:515][963]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.22.04:515][963]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.22.04:515][963]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.22.04:515][963]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.22.04:516][963]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.22.04:516][963]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.22.04:516][963]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.22.04:516][963]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.22.04:516][963]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.22.04:519][963]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.22.04:537][963]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.22.04:537][963]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.22.04:538][963]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.22.04:538][963]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.22.04:538][963]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.05.06-01.22.04:538][963]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.05.06-01.22.04:540][963]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.05.06-01.22.04:540][963]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.05.06-01.22.04:540][963]LogInit: FAudioDevice initialized.
+[2022.05.06-01.22.04:540][963]LogAudio: Display: Audio Device (ID: 15) registered with world 'TopDownMap'.
+[2022.05.06-01.22.04:607][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.22.04:607][963]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.22.04:610][963]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.22.04
+[2022.05.06-01.22.04:611][963]LogWorld: Bringing up level for play took: 0.003314
+[2022.05.06-01.22.04:613][963]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2022.05.06-01.22.04:613][963]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.22.04:614][963]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.22.04:614][963]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.22.04:622][963]PIE: Server logged in
+[2022.05.06-01.22.04:628][963]PIE: Play in editor total start time 0.273 seconds.
+[2022.05.06-01.22.15:848][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.22.15:848][206]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.22.15:848][206]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.22.15:859][206]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.22.15:859][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.22.15:874][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.22.15:886][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.22.15:956][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.05.06-01.22.15:958][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.05.06-01.22.15:965][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.05.06-01.22.16:007][207]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.05.06-01.23.08:129][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors.uasset" SILENT=true
+[2022.05.06-01.23.08:147][597]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors
+[2022.05.06-01.23.08:147][597]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActorsAC764D21447A4EE7FB1D9AB90333F008.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors.uasset'
+[2022.05.06-01.23.08:190][597]AssetCheck: New page: Asset Save: ClickableActors
+[2022.05.06-01.23.08:190][597]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/ClickableActors.ClickableActors
+[2022.05.06-01.23.08:294][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors.uasset" SILENT=true
+[2022.05.06-01.23.08:312][603]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors
+[2022.05.06-01.23.08:312][603]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActors228C3FE746CEEA762966D5B2D20C80AE.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors.uasset'
+[2022.05.06-01.23.08:333][603]AssetCheck: New page: Asset Save: ClickableActors
+[2022.05.06-01.23.08:333][603]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/ClickableActors.ClickableActors
+[2022.05.06-01.23.32:737][196]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.05.06-01.23.50:543][117]BlueprintLog: New page: Compile CameraPawnController
+[2022.05.06-01.23.50:673][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.05.06-01.23.51:005][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/GameModeComponents/CameraPawnController" FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset" SILENT=true
+[2022.05.06-01.23.51:023][131]LogSavePackage: Moving output files for package: /Game/SpaceGame/GameModeComponents/CameraPawnController
+[2022.05.06-01.23.51:023][131]LogSavePackage: Moving '../../../../../SpaceGame/Saved/CameraPawnController7ECDE14444AD50C2BC6892AC6F117246.tmp' to '../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset'
+[2022.05.06-01.23.51:040][131]AssetCheck: New page: Asset Save: CameraPawnController
+[2022.05.06-01.23.51:040][131]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/GameModeComponents/CameraPawnController.CameraPawnController
+[2022.05.06-01.26.48:343][594]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-01.26.48:343][594]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-01.27.00:380][720]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.27.00:473][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.05.06-01.27.00:782][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.27.00:791][724]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.27.00:791][724]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUIB7BF1040432871572F6A97A86AEAA477.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.27.00:822][724]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.27.00:822][724]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.27.01:096][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.27.01:105][743]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.27.01:105][743]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUIC5381F064BB760B538DCC4AF69A72F5C.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.27.01:149][743]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.27.01:150][743]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.31.59:243][576]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.31.59:356][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2022.05.06-01.31.59:748][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.31.59:761][599]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.31.59:762][599]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI5303686F484E7806A18D92A4CCC559F0.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.31.59:783][599]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.31.59:784][599]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.32.07:084][373]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-01.32.07:084][373]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-01.32.18:059][352]BlueprintLog: New page: Compile CameraPawnController
+[2022.05.06-01.32.18:186][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.05.06-01.32.18:541][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/GameModeComponents/CameraPawnController" FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset" SILENT=true
+[2022.05.06-01.32.18:559][375]LogSavePackage: Moving output files for package: /Game/SpaceGame/GameModeComponents/CameraPawnController
+[2022.05.06-01.32.18:559][375]LogSavePackage: Moving '../../../../../SpaceGame/Saved/CameraPawnController690814514A8B0C4E1689C3A18A3D0A13.tmp' to '../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset'
+[2022.05.06-01.32.18:579][375]AssetCheck: New page: Asset Save: CameraPawnController
+[2022.05.06-01.32.18:579][375]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/GameModeComponents/CameraPawnController.CameraPawnController
+[2022.05.06-01.32.42:890][715]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-01.32.42:890][715]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-01.32.49:159][220]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.32.49:250][220]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.05.06-01.32.49:639][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.32.49:652][235]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.32.49:652][235]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI9CB457A9487BC60C0A83998C2C396978.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.32.49:675][235]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.32.49:675][235]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.33.42:364][514]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.33.42:467][514]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.05.06-01.33.42:842][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.33.42:861][532]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.33.42:861][532]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI528951374587EB2BE702FEBE0C3088BB.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.33.42:876][532]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.33.42:876][532]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.33.46:010][783]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.33.52:181][454]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.33.55:623][767]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.33.56:621][845]BlueprintLog: New page: Compile Planet
+[2022.05.06-01.33.56:766][845]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.05.06-01.33.56:860][846]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.33.57:222][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.33.57:233][868]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.33.57:233][868]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet12B5B03A467E4553EAA44B84EB25411A.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.33.57:250][868]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.33.57:250][868]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.34.25:122][244]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.06-01.34.25:143][244]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.06-01.34.25:180][245]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.06-01.34.30:016][655]LogContentBrowser: Attempting asset rename: NewFolder -> Shipments
+[2022.05.06-01.34.30:016][655]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.06-01.34.41:641][525]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2022.05.06-01.34.41:656][525]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2022.05.06-01.34.41:698][527]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2022.05.06-01.34.44:510][765]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> Shipments_S
+[2022.05.06-01.34.44:540][765]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2022.05.06-01.34.46:956][944]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.05.06-01.34.47:030][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/5/8T/IJNCJNBIOYJ60ZQ4RETUC3
+[2022.05.06-01.34.47:030][944]LogSavePackage: Moving '../../../../../SpaceGame/Saved/IJNCJNBIOYJ60ZQ4RETUC3295B57E94E8D18D099A7B7948CFD7A83.tmp' to '../../../../../SpaceGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/5/8T/IJNCJNBIOYJ60ZQ4RETUC3.uasset'
+[2022.05.06-01.34.47:039][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/7/T0/9BJN93ZRVVC3TVE9ZMLQ02
+[2022.05.06-01.34.47:039][944]LogSavePackage: Moving '../../../../../SpaceGame/Saved/9BJN93ZRVVC3TVE9ZMLQ02F017469C467EBED9F0023FA59A55EC9A.tmp' to '../../../../../SpaceGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/7/T0/9BJN93ZRVVC3TVE9ZMLQ02.uasset'
+[2022.05.06-01.34.47:041][944]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/E/3B/L6LAOE9KWNLP6QN6G71HKV
+[2022.05.06-01.34.47:041][944]LogSavePackage: Moving '../../../../../SpaceGame/Saved/L6LAOE9KWNLP6QN6G71HKV69DC35464E2A6B97A98F3BA5CDC6EA76.tmp' to '../../../../../SpaceGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/E/3B/L6LAOE9KWNLP6QN6G71HKV.uasset'
+[2022.05.06-01.34.47:041][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Shipments/Shipments_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/Shipments_S.uasset" SILENT=true
+[2022.05.06-01.34.47:042][944]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Shipments/Shipments_S
+[2022.05.06-01.34.47:042][944]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Shipments_S0D9ABE6D419D75D08B4265BE07068638.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/Shipments_S.uasset'
+[2022.05.06-01.34.47:072][944]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.06-01.34.47:072][944]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F12480B01_1543577447
+[2022.05.06-01.34.47:072][944]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F12500B01_1287852859
+[2022.05.06-01.34.47:072][944]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F124B0B01_1344049976
+[2022.05.06-01.34.47:072][944]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Shipments/Shipments_S.Shipments_S
+[2022.05.06-01.34.52:540][373]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/SpaceGame/SpaceActors/Shipments/Shipments_S.Shipments_S
+[2022.05.06-01.35.24:065][940]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2022.05.06-01.35.24:072][940]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2022.05.06-01.35.24:079][941]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2022.05.06-01.35.28:525][461]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> ShipmentType_E
+[2022.05.06-01.35.28:527][461]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2022.05.06-01.35.29:878][616]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E.ShipmentType_E
+[2022.05.06-01.36.19:796][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/ShipmentType_E.uasset" SILENT=true
+[2022.05.06-01.36.19:797][149]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E
+[2022.05.06-01.36.19:797][149]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ShipmentType_E564D572945C67D34A6D8998436A3C5BC.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/ShipmentType_E.uasset'
+[2022.05.06-01.36.19:836][149]AssetCheck: New page: Asset Save: ShipmentType_E
+[2022.05.06-01.36.19:836][149]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E.ShipmentType_E
+[2022.05.06-01.37.14:861][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/ShipmentType_E.uasset" SILENT=true
+[2022.05.06-01.37.14:862][351]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E
+[2022.05.06-01.37.14:862][351]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ShipmentType_EEC1A83114984BA5585E350B4997F4B8C.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/ShipmentType_E.uasset'
+[2022.05.06-01.37.14:885][351]AssetCheck: New page: Asset Save: ShipmentType_E
+[2022.05.06-01.37.14:885][351]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E.ShipmentType_E
+[2022.05.06-01.37.15:029][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/ShipmentType_E.uasset" SILENT=true
+[2022.05.06-01.37.15:030][361]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E
+[2022.05.06-01.37.15:030][361]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ShipmentType_E12E73485485340091F9102BBF4A79AD7.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/ShipmentType_E.uasset'
+[2022.05.06-01.37.15:066][361]AssetCheck: New page: Asset Save: ShipmentType_E
+[2022.05.06-01.37.15:066][361]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/Shipments/ShipmentType_E.ShipmentType_E
+[2022.05.06-01.37.53:811][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Shipments/Shipments_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/Shipments_S.uasset" SILENT=true
+[2022.05.06-01.37.53:812][762]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Shipments/Shipments_S
+[2022.05.06-01.37.53:813][762]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Shipments_S6458D0E240B19E7C36861DA3C98CDC4C.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/Shipments_S.uasset'
+[2022.05.06-01.37.53:834][762]AssetCheck: New page: Asset Save: Shipments_S
+[2022.05.06-01.37.53:834][762]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Shipments/Shipments_S.Shipments_S
+[2022.05.06-01.37.53:995][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Shipments/Shipments_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/Shipments_S.uasset" SILENT=true
+[2022.05.06-01.37.53:996][772]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Shipments/Shipments_S
+[2022.05.06-01.37.53:996][772]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Shipments_S6960256B420CF5941F20D798956C5D19.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/Shipments_S.uasset'
+[2022.05.06-01.37.54:021][772]AssetCheck: New page: Asset Save: Shipments_S
+[2022.05.06-01.37.54:021][772]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Shipments/Shipments_S.Shipments_S
+[2022.05.06-01.38.42:016][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Shipments/Shipments_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/Shipments_S.uasset" SILENT=true
+[2022.05.06-01.38.42:018][405]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Shipments/Shipments_S
+[2022.05.06-01.38.42:018][405]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Shipments_SC782570B408A3AF78FB98F92945DE5AF.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Shipments/Shipments_S.uasset'
+[2022.05.06-01.38.42:032][405]AssetCheck: New page: Asset Save: Shipments_S
+[2022.05.06-01.38.42:032][405]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Shipments/Shipments_S.Shipments_S
+[2022.05.06-01.41.08:754][408]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.41.11:292][659]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.41.16:414][172]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.41.21:506][667]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.41.22:811][776]BlueprintLog: New page: Compile Planet
+[2022.05.06-01.41.22:950][776]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2022.05.06-01.41.23:039][777]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.41.23:418][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.41.23:430][804]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.41.23:430][804]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet252D69FF4FB4CEE5AE02D7B9D0BE653C.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.41.23:463][804]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.41.23:463][804]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.42.01:138][607]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.42.05:854][ 49]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.42.16:594][192]BlueprintLog: New page: Compile Planet
+[2022.05.06-01.42.16:715][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.05.06-01.42.16:812][193]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.42.17:406][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.42.17:418][236]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.42.17:418][236]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetE77B2B7546C8C892000AC6BF3A99F2F6.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.42.17:447][236]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.42.17:447][236]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.42.25:343][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.42.25:356][ 57]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.42.25:357][ 57]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI3B20A0C44795EBDF17E7DC82B444C25A.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.42.25:372][ 57]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.42.25:372][ 57]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.43.40:900][396]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.43.40:999][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.05.06-01.43.41:592][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.43.41:606][437]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.43.41:607][437]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI3DF53FA54A3542937B7413AC19638283.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.43.41:632][437]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.43.41:632][437]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.43.41:904][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.43.41:918][455]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.43.41:918][455]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI1C47DAEF4889019B6B7A4BBB14D23169.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.43.41:939][455]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.43.41:939][455]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.44.29:779][194]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.44.29:903][194]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2022.05.06-01.44.30:830][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.44.30:846][259]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.44.30:846][259]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI5866560349BD9D119BF4F8B5A0900D1F.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.44.30:862][259]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.44.30:862][259]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.44.34:323][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/GameModeComponents/CameraPawnController" FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset" SILENT=true
+[2022.05.06-01.44.34:340][562]LogSavePackage: Moving output files for package: /Game/SpaceGame/GameModeComponents/CameraPawnController
+[2022.05.06-01.44.34:340][562]LogSavePackage: Moving '../../../../../SpaceGame/Saved/CameraPawnController1743951A45E1FFE12C154B8EE68469D8.tmp' to '../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset'
+[2022.05.06-01.44.34:355][562]AssetCheck: New page: Asset Save: CameraPawnController
+[2022.05.06-01.44.34:356][562]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/GameModeComponents/CameraPawnController.CameraPawnController
+[2022.05.06-01.44.34:463][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/GameModeComponents/CameraPawnController" FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset" SILENT=true
+[2022.05.06-01.44.34:480][566]LogSavePackage: Moving output files for package: /Game/SpaceGame/GameModeComponents/CameraPawnController
+[2022.05.06-01.44.34:481][566]LogSavePackage: Moving '../../../../../SpaceGame/Saved/CameraPawnController8E224F044E853377BD8D5FB49EA4CB3A.tmp' to '../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset'
+[2022.05.06-01.44.34:500][566]AssetCheck: New page: Asset Save: CameraPawnController
+[2022.05.06-01.44.34:500][566]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/GameModeComponents/CameraPawnController.CameraPawnController
+[2022.05.06-01.45.11:305][282]BlueprintLog: New page: Compile ClickableActors
+[2022.05.06-01.45.11:453][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.05.06-01.45.11:574][283]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.45.11:901][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/ClickableActors" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors.uasset" SILENT=true
+[2022.05.06-01.45.11:918][301]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/ClickableActors
+[2022.05.06-01.45.11:919][301]LogSavePackage: Moving '../../../../../SpaceGame/Saved/ClickableActors86C7D8844FC915B8B9AF8993FC672425.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/ClickableActors.uasset'
+[2022.05.06-01.45.11:934][301]AssetCheck: New page: Asset Save: ClickableActors
+[2022.05.06-01.45.11:934][301]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/ClickableActors.ClickableActors
+[2022.05.06-01.45.14:235][473]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.45.14:243][473]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.45.14:243][473]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.45.14:243][473]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.45.14:243][473]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.45.14:243][473]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.45.14:243][473]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.05.06-01.45.14:243][473]LogWorldPartition: Display: GenerateStreaming took 258 us
+[2022.05.06-01.45.14:243][473]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.05.06-01.45.14:244][473]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2022.05.06-01.45.14:320][473]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.05.06-01.45.14:323][473]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
+[2022.05.06-01.45.14:323][473]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:45:14 PM)
+[2022.05.06-01.45.14:323][473]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.45.14:329][473]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.45.14:329][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005892s)
+[2022.05.06-01.45.14:329][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005943s)
+[2022.05.06-01.45.14:330][473]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.45.14:330][473]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.45.14:330][473]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.45.14:330][473]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.45.14:332][473]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.45.14:332][473]LogPlayLevel: PIE: World Init took: (0.002285s)
+[2022.05.06-01.45.14:396][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.05.06-01.45.14:398][473]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.05.06-01.45.14:398][473]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.45.14:398][473]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.45.14:398][473]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.45.14:398][473]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.45.14:398][473]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.45.14:398][473]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.45.14:398][473]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.45.14:398][473]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.45.14:398][473]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.45.14:398][473]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.45.14:398][473]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.45.14:401][473]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.45.14:420][473]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.45.14:421][473]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.45.14:421][473]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.45.14:421][473]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.45.14:421][473]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.05.06-01.45.14:421][473]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.05.06-01.45.14:423][473]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.05.06-01.45.14:423][473]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.05.06-01.45.14:423][473]LogInit: FAudioDevice initialized.
+[2022.05.06-01.45.14:423][473]LogAudio: Display: Audio Device (ID: 16) registered with world 'TopDownMap'.
+[2022.05.06-01.45.14:494][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.45.14:495][473]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.45.14:497][473]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.45.14
+[2022.05.06-01.45.14:497][473]LogWorld: Bringing up level for play took: 0.002377
+[2022.05.06-01.45.14:499][473]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2022.05.06-01.45.14:500][473]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.45.14:501][473]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.45.14:501][473]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.45.14:504][473]PIE: Server logged in
+[2022.05.06-01.45.14:506][473]PIE: Play in editor total start time 0.265 seconds.
+[2022.05.06-01.45.18:287][877]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Target
+	PlanetUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.PlanetUI_C_0
+	Function /Game/SpaceGame/UI/PlanetUI.PlanetUI_C:ExecuteUbergraph_PlanetUI:0017
+[2022.05.06-01.45.18:287][877]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Target". Node:  Get Planet Info Graph:  EventGraph Function:  Execute Ubergraph Planet UI Blueprint:  PlanetUI
+[2022.05.06-01.45.29:543][146]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Target
+	PlanetUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.PlanetUI_C_1
+	Function /Game/SpaceGame/UI/PlanetUI.PlanetUI_C:ExecuteUbergraph_PlanetUI:0017
+[2022.05.06-01.45.29:543][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Target". Node:  Get Planet Info Graph:  EventGraph Function:  Execute Ubergraph Planet UI Blueprint:  PlanetUI
+[2022.05.06-01.45.38:713][171]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Target
+	PlanetUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.PlanetUI_C_2
+	Function /Game/SpaceGame/UI/PlanetUI.PlanetUI_C:ExecuteUbergraph_PlanetUI:0017
+[2022.05.06-01.45.38:713][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Target". Node:  Get Planet Info Graph:  EventGraph Function:  Execute Ubergraph Planet UI Blueprint:  PlanetUI
+[2022.05.06-01.45.40:372][353]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Target
+	PlanetUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.PlanetUI_C_3
+	Function /Game/SpaceGame/UI/PlanetUI.PlanetUI_C:ExecuteUbergraph_PlanetUI:0017
+[2022.05.06-01.45.40:373][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Target". Node:  Get Planet Info Graph:  EventGraph Function:  Execute Ubergraph Planet UI Blueprint:  PlanetUI
+[2022.05.06-01.45.41:819][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.45.41:819][507]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.45.41:819][507]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.45.41:830][507]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.45.41:830][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.45.41:843][507]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.45.41:854][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.45.41:921][507]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.05.06-01.45.41:922][507]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.05.06-01.45.41:929][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.05.06-01.45.42:110][508]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.05.06-01.45.49:243][125]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-01.45.49:258][125]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-01.45.57:093][796]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.45.57:106][796]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.45.57:106][796]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.45.57:106][796]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.45.57:106][796]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.45.57:106][796]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.45.57:106][796]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2022.05.06-01.45.57:106][796]LogWorldPartition: Display: GenerateStreaming took 255 us
+[2022.05.06-01.45.57:106][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.45.57:106][796]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:45:57 PM)
+[2022.05.06-01.45.57:106][796]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.45.57:112][796]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.45.57:112][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005815s)
+[2022.05.06-01.45.57:112][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005860s)
+[2022.05.06-01.45.57:112][796]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.45.57:113][796]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.45.57:113][796]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.45.57:113][796]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.45.57:114][796]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.45.57:114][796]LogPlayLevel: PIE: World Init took: (0.002150s)
+[2022.05.06-01.45.57:177][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.05.06-01.45.57:180][796]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.05.06-01.45.57:181][796]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.45.57:181][796]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.45.57:181][796]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.45.57:181][796]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.45.57:181][796]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.45.57:181][796]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.45.57:181][796]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.45.57:181][796]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.45.57:181][796]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.45.57:181][796]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.45.57:181][796]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.45.57:183][796]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.45.57:201][796]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.45.57:201][796]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.45.57:201][796]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.45.57:201][796]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.45.57:202][796]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.05.06-01.45.57:202][796]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.05.06-01.45.57:203][796]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.05.06-01.45.57:203][796]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.05.06-01.45.57:203][796]LogInit: FAudioDevice initialized.
+[2022.05.06-01.45.57:203][796]LogAudio: Display: Audio Device (ID: 17) registered with world 'TopDownMap'.
+[2022.05.06-01.45.57:262][796]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.45.57:262][796]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.45.57:264][796]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.45.57
+[2022.05.06-01.45.57:264][796]LogWorld: Bringing up level for play took: 0.001936
+[2022.05.06-01.45.57:267][796]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2022.05.06-01.45.57:268][796]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.45.57:269][796]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.45.57:269][796]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.45.57:272][796]PIE: Server logged in
+[2022.05.06-01.45.57:274][796]PIE: Play in editor total start time 0.169 seconds.
+[2022.05.06-01.45.59:143][981]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Target
+	PlanetUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_15.PlanetUI_C_0
+	Function /Game/SpaceGame/UI/PlanetUI.PlanetUI_C:ExecuteUbergraph_PlanetUI:0017
+[2022.05.06-01.45.59:143][981]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Target". Node:  Get Planet Info Graph:  EventGraph Function:  Execute Ubergraph Planet UI Blueprint:  PlanetUI
+[2022.05.06-01.46.06:547][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.46.06:547][821]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.46.06:554][821]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.46.06:567][821]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.46.06:568][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.46.06:579][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.46.06:591][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.46.06:656][821]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-01.46.06:657][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.05.06-01.46.06:659][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.05.06-01.46.06:676][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.05.06-01.46.06:843][822]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.05.06-01.46.16:978][737]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-01.46.16:999][737]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-01.46.34:256][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.46.34:268][249]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.46.34:268][249]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet9F6977B64C3C2A5E26A3C5B090349245.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.46.34:292][249]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.46.34:292][249]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.46.34:595][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.46.34:606][277]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.46.34:607][277]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet130BAF7543E17FC25BB9D3BC9E8421D0.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.46.34:645][277]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.46.34:645][277]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.46.43:993][117]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.46.46:466][328]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.46.47:315][403]BlueprintLog: New page: Compile Planet
+[2022.05.06-01.46.47:437][403]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.05.06-01.46.47:538][404]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.46.47:891][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.46.47:904][425]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.46.47:904][425]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Planet51FC4D4146E1F89527496DAFC3AB1DA6.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.46.47:926][425]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.46.47:926][425]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.46.48:229][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.06-01.46.48:242][450]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.06-01.46.48:242][450]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetAEF4A6D642356A2521B1B4AE0773C074.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.06-01.46.48:263][450]AssetCheck: New page: Asset Save: Planet
+[2022.05.06-01.46.48:263][450]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.06-01.46.57:285][224]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.46.59:013][373]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.47.04:090][808]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.47.07:223][ 79]LogNavigationDataBuild: Navigation data generation finished in /Game/TopDown/Maps/TopDownMap.
+[2022.05.06-01.47.09:949][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.05.06-01.47.10:014][270]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/5/8T/IJNCJNBIOYJ60ZQ4RETUC3
+[2022.05.06-01.47.10:014][270]LogSavePackage: Moving '../../../../../SpaceGame/Saved/IJNCJNBIOYJ60ZQ4RETUC31DB2307B40CE73A7A02298A366B9CBF1.tmp' to '../../../../../SpaceGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/5/8T/IJNCJNBIOYJ60ZQ4RETUC3.uasset'
+[2022.05.06-01.47.10:017][270]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/7/T0/9BJN93ZRVVC3TVE9ZMLQ02
+[2022.05.06-01.47.10:017][270]LogSavePackage: Moving '../../../../../SpaceGame/Saved/9BJN93ZRVVC3TVE9ZMLQ021278F46545C4528A9659719AFC6837F0.tmp' to '../../../../../SpaceGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/7/T0/9BJN93ZRVVC3TVE9ZMLQ02.uasset'
+[2022.05.06-01.47.10:019][270]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/E/3B/L6LAOE9KWNLP6QN6G71HKV
+[2022.05.06-01.47.10:020][270]LogSavePackage: Moving '../../../../../SpaceGame/Saved/L6LAOE9KWNLP6QN6G71HKV1CBAB9B94294C3551F25798104A15D12.tmp' to '../../../../../SpaceGame/Content/__ExternalActors__/TopDown/Maps/TopDownMap/E/3B/L6LAOE9KWNLP6QN6G71HKV.uasset'
+[2022.05.06-01.47.10:042][270]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.06-01.47.10:042][270]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F12480B01_1543577447
+[2022.05.06-01.47.10:042][270]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F12500B01_1287852859
+[2022.05.06-01.47.10:042][270]LogContentValidation: Display: Validating Planet_C /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.Planet_C_UAID_3C7C3FEE4F124B0B01_1344049976
+[2022.05.06-01.47.12:182][427]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.47.12:191][427]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.47.12:191][427]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.47.12:191][427]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.47.12:191][427]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.47.12:191][427]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.47.12:191][427]LogWorldPartition: Display: GetPartitionedActors took 47 us
+[2022.05.06-01.47.12:191][427]LogWorldPartition: Display: GenerateStreaming took 239 us
+[2022.05.06-01.47.12:191][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.47.12:191][427]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:47:12 PM)
+[2022.05.06-01.47.12:191][427]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.47.12:197][427]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.47.12:197][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005788s)
+[2022.05.06-01.47.12:197][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005837s)
+[2022.05.06-01.47.12:197][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.47.12:198][427]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.47.12:198][427]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.47.12:198][427]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.47.12:200][427]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.47.12:200][427]LogPlayLevel: PIE: World Init took: (0.002262s)
+[2022.05.06-01.47.12:262][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2022.05.06-01.47.12:264][427]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.05.06-01.47.12:264][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.47.12:264][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.47.12:264][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.47.12:264][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.47.12:264][427]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.47.12:265][427]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.47.12:265][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.47.12:265][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.47.12:265][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.47.12:265][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.47.12:265][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.47.12:268][427]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.47.12:285][427]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.47.12:285][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.47.12:285][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.47.12:285][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.47.12:286][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2022.05.06-01.47.12:286][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2022.05.06-01.47.12:287][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2022.05.06-01.47.12:288][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2022.05.06-01.47.12:288][427]LogInit: FAudioDevice initialized.
+[2022.05.06-01.47.12:288][427]LogAudio: Display: Audio Device (ID: 18) registered with world 'TopDownMap'.
+[2022.05.06-01.47.12:358][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.47.12:358][427]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.47.12:362][427]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.47.12
+[2022.05.06-01.47.12:362][427]LogWorld: Bringing up level for play took: 0.003705
+[2022.05.06-01.47.12:364][427]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2022.05.06-01.47.12:365][427]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.47.12:366][427]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.47.12:366][427]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.47.12:370][427]PIE: Server logged in
+[2022.05.06-01.47.12:372][427]PIE: Play in editor total start time 0.182 seconds.
+[2022.05.06-01.47.13:828][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.47.13:828][560]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.47.13:828][560]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.47.13:840][560]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.47.13:841][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.47.13:856][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.47.13:865][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.47.13:929][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.05.06-01.47.13:930][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.05.06-01.47.13:937][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.05.06-01.47.13:980][561]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.05.06-01.47.15:927][721]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.47.15:935][721]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.47.15:935][721]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.47.15:935][721]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.47.15:935][721]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.47.15:935][721]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.47.15:935][721]LogWorldPartition: Display: GetPartitionedActors took 48 us
+[2022.05.06-01.47.15:935][721]LogWorldPartition: Display: GenerateStreaming took 289 us
+[2022.05.06-01.47.15:935][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.47.15:936][721]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:47:15 PM)
+[2022.05.06-01.47.15:936][721]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.47.15:942][721]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.47.15:942][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006053s)
+[2022.05.06-01.47.15:942][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006100s)
+[2022.05.06-01.47.15:942][721]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.47.15:942][721]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.47.15:943][721]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.47.15:943][721]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.47.15:944][721]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.47.15:944][721]LogPlayLevel: PIE: World Init took: (0.002172s)
+[2022.05.06-01.47.16:008][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.05.06-01.47.16:012][721]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.05.06-01.47.16:012][721]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.47.16:012][721]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.47.16:012][721]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.47.16:012][721]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.47.16:012][721]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.47.16:012][721]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.47.16:012][721]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.47.16:012][721]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.47.16:013][721]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.47.16:013][721]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.47.16:013][721]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.47.16:015][721]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.47.16:032][721]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.47.16:032][721]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.47.16:032][721]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.47.16:033][721]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.47.16:033][721]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2022.05.06-01.47.16:033][721]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2022.05.06-01.47.16:036][721]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2022.05.06-01.47.16:036][721]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2022.05.06-01.47.16:036][721]LogInit: FAudioDevice initialized.
+[2022.05.06-01.47.16:036][721]LogAudio: Display: Audio Device (ID: 19) registered with world 'TopDownMap'.
+[2022.05.06-01.47.16:094][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.47.16:094][721]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.47.16:097][721]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.47.16
+[2022.05.06-01.47.16:097][721]LogWorld: Bringing up level for play took: 0.002551
+[2022.05.06-01.47.16:100][721]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2022.05.06-01.47.16:101][721]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.47.16:102][721]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.47.16:102][721]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.47.16:105][721]PIE: Server logged in
+[2022.05.06-01.47.16:109][721]PIE: Play in editor total start time 0.175 seconds.
+[2022.05.06-01.47.19:019][ 28]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Target
+	PlanetUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_17.PlanetUI_C_0
+	Function /Game/SpaceGame/UI/PlanetUI.PlanetUI_C:ExecuteUbergraph_PlanetUI:0017
+[2022.05.06-01.47.19:019][ 28]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property K2Node_CustomEvent_Target". Node:  Get Planet Info Graph:  EventGraph Function:  Execute Ubergraph Planet UI Blueprint:  PlanetUI
+[2022.05.06-01.47.20:728][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.47.20:728][218]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.47.20:729][218]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.47.20:740][218]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.47.20:740][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.47.20:757][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.47.20:767][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.47.20:831][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.05.06-01.47.20:834][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.05.06-01.47.20:842][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.05.06-01.47.21:023][219]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.05.06-01.47.22:843][349]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-01.47.22:864][349]LogSlate: Window 'Message Log' being destroyed
+[2022.05.06-01.48.07:078][855]BlueprintLog: New page: Compile CameraPawnController
+[2022.05.06-01.48.07:207][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.05.06-01.48.07:730][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/GameModeComponents/CameraPawnController" FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset" SILENT=true
+[2022.05.06-01.48.07:747][890]LogSavePackage: Moving output files for package: /Game/SpaceGame/GameModeComponents/CameraPawnController
+[2022.05.06-01.48.07:748][890]LogSavePackage: Moving '../../../../../SpaceGame/Saved/CameraPawnController49FD34504AA9703E77657FA8C9BF4E66.tmp' to '../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset'
+[2022.05.06-01.48.07:769][890]AssetCheck: New page: Asset Save: CameraPawnController
+[2022.05.06-01.48.07:769][890]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/GameModeComponents/CameraPawnController.CameraPawnController
+[2022.05.06-01.48.09:428][ 24]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.48.09:436][ 24]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.48.09:436][ 24]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.48.09:436][ 24]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.48.09:436][ 24]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.48.09:436][ 24]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.48.09:436][ 24]LogWorldPartition: Display: GetPartitionedActors took 49 us
+[2022.05.06-01.48.09:436][ 24]LogWorldPartition: Display: GenerateStreaming took 279 us
+[2022.05.06-01.48.09:436][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.48.09:437][ 24]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:48:09 PM)
+[2022.05.06-01.48.09:437][ 24]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.48.09:443][ 24]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.48.09:443][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006068s)
+[2022.05.06-01.48.09:443][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006115s)
+[2022.05.06-01.48.09:443][ 24]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.48.09:443][ 24]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.48.09:444][ 24]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.48.09:444][ 24]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.48.09:445][ 24]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.48.09:445][ 24]LogPlayLevel: PIE: World Init took: (0.002278s)
+[2022.05.06-01.48.09:509][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.05.06-01.48.09:511][ 24]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.05.06-01.48.09:511][ 24]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.48.09:511][ 24]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.48.09:511][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.48.09:511][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.48.09:511][ 24]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.48.09:511][ 24]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.48.09:511][ 24]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.48.09:511][ 24]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.48.09:512][ 24]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.48.09:512][ 24]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.48.09:512][ 24]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.48.09:514][ 24]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.48.09:531][ 24]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.48.09:532][ 24]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.48.09:532][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.48.09:532][ 24]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.48.09:533][ 24]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2022.05.06-01.48.09:533][ 24]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2022.05.06-01.48.09:535][ 24]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2022.05.06-01.48.09:535][ 24]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2022.05.06-01.48.09:535][ 24]LogInit: FAudioDevice initialized.
+[2022.05.06-01.48.09:536][ 24]LogAudio: Display: Audio Device (ID: 20) registered with world 'TopDownMap'.
+[2022.05.06-01.48.09:595][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.48.09:596][ 24]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.48.09:598][ 24]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.48.09
+[2022.05.06-01.48.09:598][ 24]LogWorld: Bringing up level for play took: 0.002071
+[2022.05.06-01.48.09:601][ 24]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2022.05.06-01.48.09:602][ 24]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.48.09:603][ 24]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.48.09:603][ 24]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.48.09:606][ 24]PIE: Server logged in
+[2022.05.06-01.48.09:608][ 24]PIE: Play in editor total start time 0.173 seconds.
+[2022.05.06-01.48.13:798][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.48.13:798][468]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.48.13:804][468]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.48.13:814][468]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.48.13:814][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.48.13:831][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.48.13:842][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.48.13:907][468]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-01.48.13:908][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.05.06-01.48.13:909][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.05.06-01.48.13:920][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2022.05.06-01.48.13:957][469]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.05.06-01.48.31:021][401]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.48.31:028][401]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.48.31:028][401]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.48.31:028][401]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.48.31:028][401]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.48.31:028][401]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.48.31:028][401]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2022.05.06-01.48.31:029][401]LogWorldPartition: Display: GenerateStreaming took 260 us
+[2022.05.06-01.48.31:029][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.48.31:029][401]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:48:31 PM)
+[2022.05.06-01.48.31:029][401]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.48.31:036][401]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.48.31:036][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007097s)
+[2022.05.06-01.48.31:036][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007153s)
+[2022.05.06-01.48.31:036][401]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.48.31:037][401]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.48.31:037][401]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.48.31:037][401]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.48.31:039][401]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.48.31:039][401]LogPlayLevel: PIE: World Init took: (0.003004s)
+[2022.05.06-01.48.31:113][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.05.06-01.48.31:119][401]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.05.06-01.48.31:119][401]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.48.31:119][401]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.48.31:119][401]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.48.31:119][401]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.48.31:119][401]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.48.31:119][401]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.48.31:119][401]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.48.31:119][401]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.48.31:120][401]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.48.31:120][401]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.48.31:120][401]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.48.31:122][401]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.48.31:139][401]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.48.31:140][401]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.48.31:140][401]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.48.31:140][401]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.48.31:140][401]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2022.05.06-01.48.31:140][401]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2022.05.06-01.48.31:142][401]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2022.05.06-01.48.31:142][401]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2022.05.06-01.48.31:142][401]LogInit: FAudioDevice initialized.
+[2022.05.06-01.48.31:142][401]LogAudio: Display: Audio Device (ID: 21) registered with world 'TopDownMap'.
+[2022.05.06-01.48.31:212][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.48.31:212][401]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.48.31:214][401]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.48.31
+[2022.05.06-01.48.31:215][401]LogWorld: Bringing up level for play took: 0.001942
+[2022.05.06-01.48.31:217][401]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2022.05.06-01.48.31:218][401]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.48.31:219][401]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.48.31:219][401]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.48.31:222][401]PIE: Server logged in
+[2022.05.06-01.48.31:224][401]PIE: Play in editor total start time 0.196 seconds.
+[2022.05.06-01.48.37:328][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.48.37:328][ 59]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.48.37:329][ 59]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.48.37:348][ 59]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.48.37:348][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.48.37:361][ 59]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.48.37:373][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.48.37:442][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.05.06-01.48.37:444][ 59]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.05.06-01.48.37:451][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.05.06-01.48.37:514][ 60]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.05.06-01.49.15:077][910]BlueprintLog: New page: Compile CameraPawnController
+[2022.05.06-01.49.15:181][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.05.06-01.49.15:697][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/GameModeComponents/CameraPawnController" FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset" SILENT=true
+[2022.05.06-01.49.15:716][947]LogSavePackage: Moving output files for package: /Game/SpaceGame/GameModeComponents/CameraPawnController
+[2022.05.06-01.49.15:717][947]LogSavePackage: Moving '../../../../../SpaceGame/Saved/CameraPawnController076676044E18467CFA0A6EA1A271DC83.tmp' to '../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset'
+[2022.05.06-01.49.15:748][947]AssetCheck: New page: Asset Save: CameraPawnController
+[2022.05.06-01.49.15:748][947]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/GameModeComponents/CameraPawnController.CameraPawnController
+[2022.05.06-01.49.50:407][981]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.49.50:498][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.05.06-01.49.51:018][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.49.51:033][ 13]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.49.51:034][ 13]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUIE43855DA4DB71E795E320FB0B3EEA2BB.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.49.51:066][ 13]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.49.51:066][ 13]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.50.09:018][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.50.09:032][202]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.50.09:032][202]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI4C34E3984EC66048591DB1B08EFD6FB0.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.50.09:047][202]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.50.09:047][202]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.50.22:784][379]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-01.50.22:784][379]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.06-01.50.54:941][582]BlueprintLog: New page: Compile PlanetUI
+[2022.05.06-01.50.55:047][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2022.05.06-01.50.55:384][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/PlanetUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset" SILENT=true
+[2022.05.06-01.50.55:401][602]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/PlanetUI
+[2022.05.06-01.50.55:401][602]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetUI3F71D7F040AFE38BD56A63A08AEA060F.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/PlanetUI.uasset'
+[2022.05.06-01.50.55:422][602]AssetCheck: New page: Asset Save: PlanetUI
+[2022.05.06-01.50.55:422][602]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.06-01.50.57:420][774]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.50.57:431][774]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.50.57:431][774]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.50.57:431][774]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.50.57:431][774]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.50.57:431][774]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.50.57:431][774]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.05.06-01.50.57:432][774]LogWorldPartition: Display: GenerateStreaming took 269 us
+[2022.05.06-01.50.57:432][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.50.57:432][774]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:50:57 PM)
+[2022.05.06-01.50.57:432][774]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.50.57:439][774]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.50.57:439][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007013s)
+[2022.05.06-01.50.57:439][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007067s)
+[2022.05.06-01.50.57:439][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.50.57:440][774]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.50.57:440][774]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.50.57:440][774]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.50.57:441][774]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.50.57:441][774]LogPlayLevel: PIE: World Init took: (0.002263s)
+[2022.05.06-01.50.57:510][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.05.06-01.50.57:513][774]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.05.06-01.50.57:513][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.50.57:513][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.50.57:513][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.50.57:513][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.50.57:513][774]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.50.57:513][774]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.50.57:513][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.50.57:513][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.50.57:513][774]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.50.57:513][774]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.50.57:513][774]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.50.57:515][774]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.50.57:533][774]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.50.57:534][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.50.57:534][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.50.57:534][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.50.57:535][774]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.05.06-01.50.57:535][774]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.05.06-01.50.57:537][774]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.05.06-01.50.57:537][774]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.05.06-01.50.57:537][774]LogInit: FAudioDevice initialized.
+[2022.05.06-01.50.57:537][774]LogAudio: Display: Audio Device (ID: 22) registered with world 'TopDownMap'.
+[2022.05.06-01.50.57:595][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.50.57:596][774]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.50.57:597][774]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.50.57
+[2022.05.06-01.50.57:598][774]LogWorld: Bringing up level for play took: 0.001943
+[2022.05.06-01.50.57:600][774]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2022.05.06-01.50.57:601][774]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.50.57:602][774]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.50.57:602][774]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.50.57:605][774]PIE: Server logged in
+[2022.05.06-01.50.57:607][774]PIE: Play in editor total start time 0.177 seconds.
+[2022.05.06-01.51.02:468][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.51.02:468][283]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.51.02:468][283]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.51.02:496][283]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.51.02:497][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.51.02:511][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.51.02:522][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.51.02:587][283]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-01.51.02:588][283]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.05.06-01.51.02:589][283]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.05.06-01.51.02:596][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.05.06-01.51.02:682][284]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.05.06-01.53.14:106][683]BlueprintLog: New page: Compile CameraPawnController
+[2022.05.06-01.53.14:227][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.05.06-01.53.14:877][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/GameModeComponents/CameraPawnController" FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset" SILENT=true
+[2022.05.06-01.53.14:896][729]LogSavePackage: Moving output files for package: /Game/SpaceGame/GameModeComponents/CameraPawnController
+[2022.05.06-01.53.14:896][729]LogSavePackage: Moving '../../../../../SpaceGame/Saved/CameraPawnControllerCB2EB7FC4CF37CF402D314A4D3D5AF3C.tmp' to '../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset'
+[2022.05.06-01.53.14:915][729]AssetCheck: New page: Asset Save: CameraPawnController
+[2022.05.06-01.53.14:915][729]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/GameModeComponents/CameraPawnController.CameraPawnController
+[2022.05.06-01.53.15:629][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/GameModeComponents/CameraPawnController" FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset" SILENT=true
+[2022.05.06-01.53.15:648][796]LogSavePackage: Moving output files for package: /Game/SpaceGame/GameModeComponents/CameraPawnController
+[2022.05.06-01.53.15:648][796]LogSavePackage: Moving '../../../../../SpaceGame/Saved/CameraPawnController7B74857847325265612F84A8FF1064AB.tmp' to '../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/CameraPawnController.uasset'
+[2022.05.06-01.53.15:696][796]AssetCheck: New page: Asset Save: CameraPawnController
+[2022.05.06-01.53.15:696][796]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/GameModeComponents/CameraPawnController.CameraPawnController
+[2022.05.06-01.53.17:358][935]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.53.17:365][935]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.53.17:365][935]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.53.17:365][935]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.53.17:365][935]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.53.17:365][935]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.53.17:365][935]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.05.06-01.53.17:366][935]LogWorldPartition: Display: GenerateStreaming took 270 us
+[2022.05.06-01.53.17:366][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.53.17:366][935]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:53:17 PM)
+[2022.05.06-01.53.17:366][935]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.53.17:373][935]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.53.17:373][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007110s)
+[2022.05.06-01.53.17:373][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.007165s)
+[2022.05.06-01.53.17:373][935]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.53.17:374][935]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.53.17:374][935]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.53.17:374][935]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.53.17:375][935]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.53.17:375][935]LogPlayLevel: PIE: World Init took: (0.002307s)
+[2022.05.06-01.53.17:440][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.05.06-01.53.17:443][935]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.05.06-01.53.17:443][935]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.53.17:443][935]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.53.17:443][935]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.53.17:443][935]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.53.17:443][935]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.53.17:443][935]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.53.17:443][935]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.53.17:443][935]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.53.17:443][935]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.53.17:443][935]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.53.17:443][935]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.53.17:445][935]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.53.17:462][935]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.53.17:463][935]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.53.17:463][935]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.53.17:463][935]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.53.17:464][935]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2022.05.06-01.53.17:464][935]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2022.05.06-01.53.17:465][935]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2022.05.06-01.53.17:465][935]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2022.05.06-01.53.17:465][935]LogInit: FAudioDevice initialized.
+[2022.05.06-01.53.17:465][935]LogAudio: Display: Audio Device (ID: 23) registered with world 'TopDownMap'.
+[2022.05.06-01.53.17:528][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.53.17:528][935]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.53.17:530][935]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.53.17
+[2022.05.06-01.53.17:530][935]LogWorld: Bringing up level for play took: 0.002071
+[2022.05.06-01.53.17:532][935]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2022.05.06-01.53.17:533][935]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.53.17:534][935]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.53.17:534][935]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.53.17:540][935]PIE: Server logged in
+[2022.05.06-01.53.17:545][935]PIE: Play in editor total start time 0.18 seconds.
+[2022.05.06-01.53.29:407][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.53.29:407][226]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.53.29:408][226]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.53.29:420][226]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.53.29:420][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.53.29:431][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.53.29:442][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.53.29:508][226]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.06-01.53.29:509][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.05.06-01.53.29:510][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.05.06-01.53.29:517][226]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.05.06-01.53.29:553][227]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.05.06-01.53.52:598][279]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.53.52:605][279]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.53.52:605][279]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.53.52:605][279]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.53.52:605][279]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.53.52:605][279]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.53.52:605][279]LogWorldPartition: Display: GetPartitionedActors took 45 us
+[2022.05.06-01.53.52:605][279]LogWorldPartition: Display: GenerateStreaming took 248 us
+[2022.05.06-01.53.52:605][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.53.52:606][279]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:53:52 PM)
+[2022.05.06-01.53.52:606][279]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.53.52:611][279]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.53.52:612][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005837s)
+[2022.05.06-01.53.52:612][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.005882s)
+[2022.05.06-01.53.52:612][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.53.52:612][279]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.53.52:612][279]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.53.52:612][279]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.53.52:614][279]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.53.52:614][279]LogPlayLevel: PIE: World Init took: (0.002147s)
+[2022.05.06-01.53.52:676][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2022.05.06-01.53.52:679][279]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.05.06-01.53.52:679][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.53.52:679][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.53.52:679][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.53.52:679][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.53.52:679][279]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.53.52:679][279]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.53.52:679][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.53.52:679][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.53.52:679][279]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.53.52:679][279]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.53.52:679][279]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.53.52:682][279]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.53.52:699][279]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.53.52:699][279]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.53.52:700][279]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.53.52:700][279]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.53.52:701][279]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.05.06-01.53.52:701][279]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2022.05.06-01.53.52:703][279]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.05.06-01.53.52:703][279]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.05.06-01.53.52:703][279]LogInit: FAudioDevice initialized.
+[2022.05.06-01.53.52:703][279]LogAudio: Display: Audio Device (ID: 24) registered with world 'TopDownMap'.
+[2022.05.06-01.53.52:765][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.53.52:765][279]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.53.52:768][279]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.53.52
+[2022.05.06-01.53.52:769][279]LogWorld: Bringing up level for play took: 0.003431
+[2022.05.06-01.53.52:771][279]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2022.05.06-01.53.52:772][279]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.53.52:772][279]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.53.52:772][279]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.53.52:778][279]PIE: Server logged in
+[2022.05.06-01.53.52:780][279]PIE: Play in editor total start time 0.176 seconds.
+[2022.05.06-01.54.03:028][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.54.03:028][380]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.54.03:029][380]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.54.03:047][380]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.54.03:047][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.54.03:064][380]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.54.03:076][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.54.03:144][380]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.05.06-01.54.03:145][380]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.05.06-01.54.03:155][380]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.05.06-01.54.03:194][381]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.05.06-01.54.07:212][717]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.54.07:220][717]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.54.07:220][717]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.54.07:220][717]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.54.07:220][717]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.54.07:220][717]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.54.07:220][717]LogWorldPartition: Display: GetPartitionedActors took 48 us
+[2022.05.06-01.54.07:220][717]LogWorldPartition: Display: GenerateStreaming took 264 us
+[2022.05.06-01.54.07:220][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.54.07:220][717]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:54:07 PM)
+[2022.05.06-01.54.07:220][717]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.54.07:226][717]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.54.07:226][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006017s)
+[2022.05.06-01.54.07:226][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006066s)
+[2022.05.06-01.54.07:227][717]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.54.07:227][717]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.54.07:227][717]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.54.07:227][717]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.54.07:229][717]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.54.07:229][717]LogPlayLevel: PIE: World Init took: (0.002471s)
+[2022.05.06-01.54.07:291][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2022.05.06-01.54.07:294][717]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.05.06-01.54.07:294][717]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.54.07:294][717]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.54.07:294][717]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.54.07:294][717]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.54.07:294][717]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.54.07:294][717]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.54.07:294][717]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.54.07:294][717]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.54.07:295][717]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.54.07:295][717]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.54.07:295][717]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.54.07:297][717]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.54.07:314][717]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.54.07:315][717]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.54.07:315][717]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.54.07:315][717]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.54.07:316][717]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.05.06-01.54.07:316][717]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.05.06-01.54.07:318][717]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.05.06-01.54.07:318][717]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.05.06-01.54.07:318][717]LogInit: FAudioDevice initialized.
+[2022.05.06-01.54.07:318][717]LogAudio: Display: Audio Device (ID: 25) registered with world 'TopDownMap'.
+[2022.05.06-01.54.07:379][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.54.07:379][717]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.54.07:381][717]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.54.07
+[2022.05.06-01.54.07:381][717]LogWorld: Bringing up level for play took: 0.001925
+[2022.05.06-01.54.07:384][717]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2022.05.06-01.54.07:385][717]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.54.07:386][717]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.54.07:386][717]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.54.07:389][717]PIE: Server logged in
+[2022.05.06-01.54.07:391][717]PIE: Play in editor total start time 0.173 seconds.
+[2022.05.06-01.54.23:918][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.54.23:918][538]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.54.23:918][538]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.54.23:937][538]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.54.23:937][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.54.23:952][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.54.23:962][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.54.24:028][538]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.05.06-01.54.24:030][538]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.05.06-01.54.24:042][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.05.06-01.54.24:078][539]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.05.06-01.54.25:641][656]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.06-01.54.25:648][656]LogWorldPartition: Display: GenerateStreaming started...
+[2022.05.06-01.54.25:648][656]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.05.06-01.54.25:648][656]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.54.25:648][656]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.05.06-01.54.25:648][656]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.05.06-01.54.25:648][656]LogWorldPartition: Display: GetPartitionedActors took 46 us
+[2022.05.06-01.54.25:649][656]LogWorldPartition: Display: GenerateStreaming took 282 us
+[2022.05.06-01.54.25:649][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.06-01.54.25:649][656]PIE: New page: PIE session: TopDownMap (May 5, 2022, 1:54:25 PM)
+[2022.05.06-01.54.25:649][656]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.54.25:656][656]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.05.06-01.54.25:656][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006723s)
+[2022.05.06-01.54.25:656][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.006786s)
+[2022.05.06-01.54.25:656][656]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.06-01.54.25:656][656]LogAIModule: Creating AISystem for world TopDownMap
+[2022.05.06-01.54.25:657][656]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.05.06-01.54.25:657][656]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.05.06-01.54.25:658][656]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.05.06-01.54.25:658][656]LogPlayLevel: PIE: World Init took: (0.002256s)
+[2022.05.06-01.54.25:723][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2022.05.06-01.54.25:726][656]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.05.06-01.54.25:726][656]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.06-01.54.25:726][656]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.06-01.54.25:726][656]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.06-01.54.25:726][656]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.06-01.54.25:726][656]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.06-01.54.25:726][656]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.06-01.54.25:726][656]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.06-01.54.25:726][656]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.06-01.54.25:727][656]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.06-01.54.25:727][656]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.06-01.54.25:727][656]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.06-01.54.25:729][656]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.06-01.54.25:746][656]LogAudioMixer: Display: Using Audio Hardware Device Line (2- MG-XU)
+[2022.05.06-01.54.25:746][656]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.06-01.54.25:746][656]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.06-01.54.25:746][656]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.06-01.54.25:747][656]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2022.05.06-01.54.25:747][656]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2022.05.06-01.54.25:748][656]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2022.05.06-01.54.25:748][656]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2022.05.06-01.54.25:748][656]LogInit: FAudioDevice initialized.
+[2022.05.06-01.54.25:748][656]LogAudio: Display: Audio Device (ID: 26) registered with world 'TopDownMap'.
+[2022.05.06-01.54.25:820][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.54.25:821][656]LogLoad: Game class is 'SpaceGameMode_C'
+[2022.05.06-01.54.25:823][656]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2022.05.05-19.54.25
+[2022.05.06-01.54.25:823][656]LogWorld: Bringing up level for play took: 0.002397
+[2022.05.06-01.54.25:825][656]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2022.05.06-01.54.25:826][656]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.05.06-01.54.25:826][656]LogWorldPartition: New Streaming Source: CameraPawnController_C_0 -> Position: X=1000.000 Y=1810.000 Z=92.013
+[2022.05.06-01.54.25:826][656]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.05.06-01.54.25:829][656]PIE: Server logged in
+[2022.05.06-01.54.25:831][656]PIE: Play in editor total start time 0.184 seconds.
+[2022.05.06-01.54.34:738][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.06-01.54.34:738][623]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2022.05.06-01.54.34:738][623]LogSlate: Window 'SpaceGame Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.06-01.54.34:749][623]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.06-01.54.34:749][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.54.34:764][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.06-01.54.34:775][623]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.06-01.54.34:844][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.05.06-01.54.34:846][623]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.05.06-01.54.34:854][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.05.06-01.54.34:916][624]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.05.06-01.54.38:462][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
