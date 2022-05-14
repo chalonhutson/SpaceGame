@@ -24,6 +24,16 @@
 			"Name": "TimeClock",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6f6a4afb66af43deb946a48b78d8c80a"
+		},
+		{
+			"Name": "ElectronicNodes",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5cb2a394d0c04e73891762be4cbd7216"
+		},
+		{
+			"Name": "DarkerNodes",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4b3441f0228a40ec9ca986489a5bd682"
 		}
 	]
 }
