@@ -1,0 +1,1110 @@
+﻿Log file open, 05/16/22 19:32:50
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=12456)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SpaceGame
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-19764885"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.1-19764885+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" X:\SpaceGame\SpaceGame.uproject""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (21H2) "
+LogCsvProfiler: Display: Metadata set : cpu="AuthenticAMD|AMD Ryzen 7 3700X 8-Core Processor"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="540c8e5d4a6f71915d821ab4cedbe181"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 1.102651
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-3AF1F4EF4E951E3150AC7CAD582C22AF
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading VulkanPC ini files took 0.02 seconds
+LogConfig: Display: Loading Windows ini files took 0.03 seconds
+LogConfig: Display: Loading Android ini files took 0.03 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogConfig: Display: Loading HoloLens ini files took 0.04 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin TimeClock
+LogPluginManager: Mounting Engine plugin ElectronicNodes
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Marketplace/TimeClock/Content/' mounted to '/TimeClock/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-19764885
+LogInit: Engine Version: 5.0.1-19764885+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (21H2) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 3060
+LogInit: Compiled (64-bit): Apr 15 2022 04:06:52
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: X:/Epic Games/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[WorkingColorSpaceChoice:sRGB]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[RedChromaticityCoordinate:(X=0.640000,Y=0.330000)]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[GreenChromaticityCoordinate:(X=0.300000,Y=0.600000)]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[BlueChromaticityCoordinate:(X=0.150000,Y=0.060000)]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[WhiteChromaticityCoordinate:(X=0.312700,Y=0.329000)]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[TranslucentSortAxis:(X=0.000000,Y=-1.000000,Z=0.000000)]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[bDefaultParticleCutouts:0]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[bStreamSkeletalMeshLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[bDiscardSkeletalMeshOptionalLODs:(Default=False,PerPlatform=())]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[VisualizeCalibrationCustomMaterialPath:None]] deferred - dummy variable created
+[2022.05.17-01.32.53:284][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2022.05.17-01.32.53:284][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2022.05.17-01.32.53:284][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2022.05.17-01.32.53:285][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2022.05.17-01.32.53:285][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2022.05.17-01.32.53:292][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2022.05.17-01.32.53:293][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2022.05.17-01.32.53:442][  0]LogD3D12RHI: Aftermath initialized
+[2022.05.17-01.32.53:442][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.05.17-01.32.53:745][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 3060 (Max supported Feature Level 12_1, shader model 6.6)
+[2022.05.17-01.32.53:745][  0]LogD3D12RHI: Adapter has 12142MB of dedicated video memory, 0MB of dedicated system memory, and 16336MB of shared system memory, 3 output[s]
+[2022.05.17-01.32.53:771][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2022.05.17-01.32.53:771][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16336MB of shared system memory, 0 output[s]
+[2022.05.17-01.32.53:771][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.05.17-01.32.53:771][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.05.17-01.32.53:771][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2022.05.17-01.32.53:771][  0]LogHAL: Display: Platform has ~ 32 GB [34259865600 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.05.17-01.32.53:771][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2022.05.17-01.32.53:771][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2022.05.17-01.32.53:771][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.05.17-01.32.53:776][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2022.05.17-01.32.53:776][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [X:/SpaceGame/Saved/Config/WindowsEditor/Editor.ini]
+[2022.05.17-01.32.53:776][  0]LogInit: Computer: PC
+[2022.05.17-01.32.53:776][  0]LogInit: User: chalo
+[2022.05.17-01.32.53:776][  0]LogInit: CPU Page size=4096, Cores=8
+[2022.05.17-01.32.53:776][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.05.17-01.32.53:777][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2022.05.17-01.32.53:777][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2022.05.17-01.32.53:777][  0]LogMemory: Process Physical Memory: 278.84 MB used, 289.09 MB peak
+[2022.05.17-01.32.53:777][  0]LogMemory: Process Virtual Memory: 246.00 MB used, 246.00 MB peak
+[2022.05.17-01.32.53:777][  0]LogMemory: Physical Memory: 7742.79 MB used,  24929.96 MB free, 32672.75 MB total
+[2022.05.17-01.32.53:777][  0]LogMemory: Virtual Memory: 10087.96 MB used,  27448.79 MB free, 37536.75 MB total
+[2022.05.17-01.32.53:777][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2022.05.17-01.32.53:783][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.05.17-01.32.53:924][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2022.05.17-01.32.53:924][  0]LogInit: Using OS detected language (en-US).
+[2022.05.17-01.32.53:924][  0]LogInit: Using OS detected locale (en-US).
+[2022.05.17-01.32.53:938][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.05.17-01.32.54:163][  0]LogInit: Setting process to per monitor DPI aware
+[2022.05.17-01.32.54:188][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2022.05.17-01.32.54:188][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2022.05.17-01.32.54:188][  0]LogWindowsTextInputMethodSystem:   - English (United States) - Touch Input Correction (TSF IME).
+[2022.05.17-01.32.54:188][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.05.17-01.32.54:254][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.05.17-01.32.54:254][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.05.17-01.32.56:336][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2022.05.17-01.32.56:339][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2022.05.17-01.32.56:339][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: D3D12 ray tracing tier 1.1 is supported.
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2022.05.17-01.32.56:419][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2022.05.17-01.32.56:463][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.05.17-01.32.56:470][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.05.17-01.32.56:481][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.05.17-01.32.56:500][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.05.17-01.32.56:500][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.05.17-01.32.56:639][  0]LogD3D12RHI:     GPU DeviceId: 0x2504 (for the marketing name, search the web for "GPU Device Id")
+[2022.05.17-01.32.56:639][  0]LogWindows: EnumDisplayDevices:
+[2022.05.17-01.32.56:639][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060' (P:1 D:1)
+[2022.05.17-01.32.56:639][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
+[2022.05.17-01.32.56:639][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060' (P:0 D:1)
+[2022.05.17-01.32.56:639][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060' (P:0 D:0)
+[2022.05.17-01.32.56:640][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.05.17-01.32.56:640][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 3060
+[2022.05.17-01.32.56:640][  0]LogD3D12RHI:   Driver Version: 512.15 (internal:30.0.15.1215, unified:512.15)
+[2022.05.17-01.32.56:640][  0]LogD3D12RHI:      Driver Date: 3-17-2022
+[2022.05.17-01.32.56:640][  0]LogRHI: Texture pool is 7165 MB (70% of 10236 MB)
+[2022.05.17-01.32.56:640][  0]LogD3D12RHI: Async texture creation enabled
+[2022.05.17-01.32.56:640][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.05.17-01.32.56:651][  0]LogRHI: GeForceNow SDK initialized: 0
+[2022.05.17-01.32.56:712][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="X:/SpaceGame/SpaceGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="X:/SpaceGame/Intermediate/TurnkeyReport_0.log" -log="X:/SpaceGame/Intermediate/TurnkeyLog_0.log" -project="X:/SpaceGame/SpaceGame.uproject"  -platform=all'
+[2022.05.17-01.32.56:712][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""X:/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="X:/SpaceGame/SpaceGame.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="X:/SpaceGame/Intermediate/TurnkeyReport_0.log" -log="X:/SpaceGame/Intermediate/TurnkeyLog_0.log" -project="X:/SpaceGame/SpaceGame.uproject"  -platform=all" ]
+[2022.05.17-01.32.57:027][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2022.05.17-01.32.57:027][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2022.05.17-01.32.57:285][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2022.05.17-01.32.57:285][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.05.17-01.32.57:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.05.17-01.32.57:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.05.17-01.32.57:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.05.17-01.32.57:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.05.17-01.32.57:437][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.05.17-01.32.57:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.05.17-01.32.57:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.05.17-01.32.57:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.05.17-01.32.57:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.05.17-01.32.57:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.05.17-01.32.57:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.05.17-01.32.57:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.05.17-01.32.57:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.05.17-01.32.57:499][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.05.17-01.32.57:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.05.17-01.32.57:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.05.17-01.32.57:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.05.17-01.32.57:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.05.17-01.32.57:541][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2022.05.17-01.32.57:663][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.05.17-01.32.57:682][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2022.05.17-01.32.57:682][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2022.05.17-01.32.57:682][  0]LogTargetPlatformManager:   ADPCM
+[2022.05.17-01.32.57:682][  0]LogTargetPlatformManager:   PCM
+[2022.05.17-01.32.57:702][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2022.05.17-01.32.57:702][  0]LogTargetPlatformManager:   BINKA
+[2022.05.17-01.32.57:702][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2022.05.17-01.32.57:702][  0]LogTargetPlatformManager:   OGG
+[2022.05.17-01.32.57:702][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2022.05.17-01.32.57:702][  0]LogTargetPlatformManager:   OPUS
+[2022.05.17-01.32.59:882][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   SF_METAL
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2022.05.17-01.32.59:931][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2022.05.17-01.32.59:975][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2022.05.17-01.32.59:975][  0]LogTargetPlatformManager:   VVM_1_0
+[2022.05.17-01.32.59:975][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2022.05.17-01.32.59:975][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2022.05.17-01.32.59:975][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2022.05.17-01.32.59:975][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2022.05.17-01.32.59:975][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2022.05.17-01.32.59:975][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.05.17-01.32.59:975][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../SpaceGame/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.05.17-01.32.59:979][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.05.17-01.32.59:980][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../SpaceGame/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.05.17-01.32.59:983][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.05.17-01.32.59:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../SpaceGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.05.17-01.32.59:986][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2022.05.17-01.32.59:986][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../SpaceGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.17-01.32.59:986][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2022.05.17-01.33.00:014][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1092 MiB)
+[2022.05.17-01.33.00:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.05.17-01.33.00:014][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2022.05.17-01.33.00:059][  0]LogDerivedDataCache: Speed tests for C:/Users/chalo/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.04 seconds
+[2022.05.17-01.33.00:059][  0]LogDerivedDataCache: Display: Performance to C:/Users/chalo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.26ms. RandomReadSpeed=26.63MBs, RandomWriteSpeed=134.27MBs. Assigned SpeedClass 'Local'
+[2022.05.17-01.33.00:060][  0]LogDerivedDataCache: Using Local data cache path C:/Users/chalo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.05.17-01.33.00:060][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.05.17-01.33.00:060][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2022.05.17-01.33.00:066][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2022.05.17-01.33.00:066][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.05.17-01.33.00:067][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (../../../../../SpaceGame/Intermediate/Shaders/WorkingDirectory/11428/).
+[2022.05.17-01.33.00:067][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/chalo/AppData/Local/Temp/UnrealShaderWorkingDir/2290988A4875822AF0A6FEB6E31B3E0A/'.
+[2022.05.17-01.33.00:067][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.05.17-01.33.00:067][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 8 workers.
+[2022.05.17-01.33.03:897][  0]LogSlate: Using FreeType 2.10.0
+[2022.05.17-01.33.03:912][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.05.17-01.33.04:086][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2022.05.17-01.33.04:091][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2022.05.17-01.33.04:327][  0]LogSerialization: UsePackageTrailer: 'false'
+[2022.05.17-01.33.04:328][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2022.05.17-01.33.04:602][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.05.17-01.33.04:602][  0]LogDeviceProfileManager: Active device profile: [000005ACAF2D8A40][000005ACAF5D5000 50] WindowsEditor
+[2022.05.17-01.33.04:602][  0]LogDeviceProfileManager: Profiles: [000005ACAF2D8500][000005ACAF5D2800 50] Windows, [000005ACAF2D8A40][000005ACAF5D5000 50] WindowsEditor, [000005ACAF2D8C00][000005ACAF5D7800 50] WindowsServer, [000005ACAF2D40C0][000005AC962DA000 50] WindowsClient, [000005ACAF2D8180][000005ACA5720000 50] IOS, [000005ACAF2D4980][000005ACAF5DA000 50] iPadAir2, [000005ACAF2D6580][000005ACAF612800 50] IPadPro, [000005ACAF2D6200][000005ACAF615000 50] iPadAir3, [000005ACAF2D8340][000005ACAF617800 50] iPadAir4, [000005ACAF2D55C0][000005ACAF5D0000 50] iPadMini4, [000005ACAF2D4600][000005ACAF610000 50] iPadMini5, [000005ACAF2D6AC0][000005ACAF61A000 50] iPadMini6, [000005ACAF2DAF00][000005ACAF692800 50] iPhone6S, [000005ACAF2DB280][000005ACAF690000 50] iPhone7, [000005ACAF2DB600][000005ACAF695000 50] iPodTouch7, [000005ACAF2D71C0][000005ACAF61C800 50] iPhone6SPlus, [000005ACAF2D2F40][000005ACA56E7800 50] iPhone7Plus, [000005ACAF2DB0C0][000005ACAF69C800 50] iPhoneSE, [000005ACAF2D7380][000005ACAF642800 50] iPhone8, [000005ACAF2DB7C0][000005ACAF640000 50] iPhone8Plus, [000005ACAF2D9BC0][000005ACAF64A000 50] iPhoneX, [000005ACAF2D4EC0][000005ACAF69A000 50] iPhoneXS, [000005ACAF2D7A80][000005ACAF645000 50] iPhoneXSMax, [000005ACAF2D32C0][000005ACAF647800 50] iPhoneXR, [000005ACAF2D9F40][000005ACAF602800 50] iPhone11, [000005ACAF2D3B80][000005ACAF600000 50] iPhone11Pro, [000005ACAF2D7FC0][000005ACAF60A000 50] iPhone11ProMax, [000005ACAF2D6900][000005ACAF64C800 50] iPhoneSE2, [000005ACAF2D9300][000005ACAF5DC800 50] iPhone12Mini, [000005ACAF2D6E40][000005ACAF607800 50] iPhone12, [000005ACAF2D4B40][000005ACAF672800 50] iPhone12Pro, [000005ACAF2D78C0][000005ACAF670000 50] iPhone12ProMax, [000005ACAF2DA2C0][000005ACAF67A000 50] iPhone13Mini, [000005ACAF2D9A00][000005ACAF605000 50] iPhone13, [000005ACAF2D4280][000005ACAF675000 50] iPhone13Pro, [000005ACAF2D7000][000005ACAF677800 50] iPhone13ProMax, [000005ACAF2D9140][000005ACAF682800 50] iPadPro105, [000005ACAF2D8DC0][000005ACAF680000 50] iPadPro129, [000005ACAF2D7C40][000005ACAF68A000 50] iPadPro97, [000005ACAF2D6040][000005ACAF67C800 50] iPadPro2_129, [000005ACAF2DA9C0][000005ACAF697800 50] iPad5, [000005ACAF2D6740][000005ACAF687800 50] iPad6, [000005ACAF2DAD40][000005ACAF6B2800 50] iPad7, [000005ACAF2D63C0][000005ACAF6B0000 50] iPad8, [000005ACAF2DA800][000005ACAF6BA000 50] iPad9, [000005ACAF2D5E80][000005ACAF685000 50] iPadPro11, [000005ACAF2D3F00][000005ACAF6B5000 50] iPadPro2_11, [000005ACAF2D47C0][000005ACAF6B7800 50] iPadPro3_11, [000005ACAF2DAB80][000005ACAF6C2800 50] iPadPro3_129, [000005ACAF2D4D00][000005ACAF6C0000 50] iPadPro4_129, [000005ACAF2D7E00][000005ACAF6CA000 50] iPadPro5_129, [000005ACAF2D7700][000005ACAF6BC800 50] AppleTV, [000005ACAF2D5080][000005ACAF60C800 50] AppleTV4K, [000005ACAF2DA640][000005ACAF6C7800 50] TVOS, [000005ACAF2DD740][000005ACAF6D2800 50] Mac, [000005ACAF2DDAC0][000005ACAF6D5000 50] MacEditor, [000005ACAF2D6C80][000005ACAF6D7800 50] MacClient, [000005ACAF2D9840][000005ACAF6C5000 50] MacServer, [000005ACAF2DE380][000005ACAF705000 50] Linux, [000005ACAF2DE700][000005ACAF700000 50] LinuxEditor, [000005ACAF2DCCC0][000005ACAF702800 50] LinuxArm64Editor, [000005ACAF2D39C0][000005ACAF6D0000 50] LinuxArm64, [000005ACAF2DC400][000005ACAF707800 50] LinuxClient, [000005ACAF2DEA80][000005ACAF68C800 50] LinuxArm64Client, [000005ACAF2DCB00][000005ACAF6CC800 50] LinuxServer, [000005ACAF2DBEC0][000005ACAF70A000 50] LinuxArm64Server, [000005ACAF2DE540][000005ACAF6E2800 50] Android, [000005ACAF2DD040][000005ACAF6E0000 50] Android_Preview_OpenGL, [000005ACAF2D5940][000005ACAF6EA000 50] Android_Preview_Vulkan, [000005ACAF2D8F80][000005ACAF6DC800 50] Android_Low, [000005ACAF2DE1C0][000005ACAF6E5000 50] Android_Mid, [000005ACAF2D5400][000005ACAF6E7800 50] Android_High, [000005ACAF2DDE40][000005ACAF6F2800 50] Android_Default, [000005ACAF2DC080][000005ACAF6F0000 50] Android_Adreno4xx, [000005ACAF2DB440][000005ACAF6FA000 50] Android_Adreno5xx_Low, [000005ACAF2D9680][000005ACAF6EC800 50] Android_Adreno5xx, [000005ACAF2D3D40][000005ACAF70C800 50] Android_Adreno6xx, [000005ACAF2DA100][000005ACAF6F7800 50] Android_Adreno6xx_Vulkan, [000005ACAF2DD580][000005ACAF712800 50] Android_Adreno7xx, [000005ACAF2D94C0][000005ACAF710000 50] Android_Adreno7xx_Vulkan, [000005ACAF2D5240][000005ACAF71A000 50] Android_Mali_T6xx, [000005ACAF2DDC80][000005ACAF6F5000 50] Android_Mali_T7xx, [000005ACAF2DC780][000005ACAF715000 50] Android_Mali_T8xx, [000005ACAF2D9D80][000005ACAF717800 50] Android_Mali_G71, [000005ACAF2DE8C0][000005ACAF722800 50] Android_Mali_G72, [000005ACAF2DE000][000005ACAF720000 50] Android_Mali_G72_Vulkan, [000005ACAF2DF340][000005ACAF72A000 50] Android_Mali_G76, [000005ACAF2DD900][000005ACAF71C800 50] Android_Mali_G76_Vulkan, [000005ACAF2D4440][000005ACAF6DA000 50] Android_Mali_G77, [000005ACAF2DD200][000005ACAF727800 50] Android_Mali_G77_Vulkan, [000005ACAF2DB980][000005ACAF732800 50] Android_Mali_G78, [000005ACAF2D5780][000005ACAF730000 50] Android_Mali_G78_Vulkan, [000005ACAF2DA480][000005ACAF73A000 50] Android_Mali_G710, [000005ACAF2DD3C0][000005ACAF725000 50] Android_Mali_G710_Vulkan, [000005ACAF2DFDC0][000005ACAF735000 50] Android_Xclipse_920, [000005ACAF7601C0][000005ACAF737800 50] Android_Xclipse_920_Vulkan, [000005ACAF762300][000005ACAF742800 50] Android_Vulkan_SM5, [000005ACAF761180][000005ACAF740000 50] Android_PowerVR_G6xxx, [000005ACAF761A40][000005ACAF74A000 50] Android_PowerVR_GT7xxx, [000005ACAF760E00][000005ACAF73C800 50] Android_PowerVR_GE8xxx, [000005ACAF763100][000005ACAF6FC800 50] Android_PowerVR_GM9xxx, [000005ACAF760700][000005ACAF747800 50] Android_PowerVR_GM9xxx_Vulkan, [000005ACAF763B80][000005ACAF752800 50] Android_TegraK1, [000005ACAF761500][000005ACAF750000 50] Android_Unknown_Vulkan, [000005ACAF761F80][000005ACAF75A000 50] Oculus_Quest, [000005ACAF760A80][000005ACAF745000 50] Oculus_Quest2, [000005ACAF7616C0][000005ACAF755000 50] HoloLens, 
+[2022.05.17-01.33.04:602][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.05.17-01.33.04:721][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2022.05.17-01.33.05:537][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.05.17-01.33.05:537][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.05.17-01.33.05:537][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.05.17-01.33.05:537][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.05.17-01.33.05:537][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.05.17-01.33.05:740][  0]LogNetVersion: SpaceGame 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 162729827)
+[2022.05.17-01.33.06:407][  0]LogSlate: Border
+[2022.05.17-01.33.06:407][  0]LogSlate: BreadcrumbButton
+[2022.05.17-01.33.06:407][  0]LogSlate: Default
+[2022.05.17-01.33.06:407][  0]LogSlate: Icons.Save
+[2022.05.17-01.33.06:407][  0]LogSlate: Icons.Toolbar.Settings
+[2022.05.17-01.33.06:407][  0]LogSlate: ListView
+[2022.05.17-01.33.06:407][  0]LogSlate: SoftwareCursor_CardinalCross
+[2022.05.17-01.33.06:407][  0]LogSlate: SoftwareCursor_Grab
+[2022.05.17-01.33.06:407][  0]LogSlate: TableView.DarkRow
+[2022.05.17-01.33.06:407][  0]LogSlate: TableView.Row
+[2022.05.17-01.33.06:407][  0]LogSlate: TreeView
+[2022.05.17-01.33.07:711][  0]SourceControl: Source control is disabled
+[2022.05.17-01.33.07:810][  0]SourceControl: Source control is disabled
+[2022.05.17-01.33.07:810][  0]SourceControl: Source control is disabled
+[2022.05.17-01.33.08:108][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2022.05.17-01.33.08:108][  0]LogUObjectAllocator: 5584240 out of 0 bytes used by permanent object pool.
+[2022.05.17-01.33.08:108][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.05.17-01.33.10:751][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 5BEFD73149AEB8B0BBB604A997B3C5B0 | Instance: C87593FE42FD9BBFBCA7A9B866973DF8 (PC-11428).
+[2022.05.17-01.33.12:072][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.05.17-01.33.12:113][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.05.17-01.33.12:238][  0]LogPython: Using Python 3.9.7
+[2022.05.17-01.33.16:081][  0]SourceControl: Source control is disabled
+[2022.05.17-01.33.16:137][  0]SourceControl: Source control is disabled
+[2022.05.17-01.33.16:194][  0]SourceControl: Source control is disabled
+[2022.05.17-01.33.16:251][  0]LogUProjectInfo: Found projects:
+[2022.05.17-01.33.17:741][  0]LogOpenImageDenoise: OIDN starting up
+[2022.05.17-01.33.17:911][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.05.17-01.33.17:997][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.05.17-01.33.17:997][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.05.17-01.33.18:613][  0]LogCollectionManager: Loaded 0 collections in 0.000780 seconds
+[2022.05.17-01.33.19:892][  0]LogFileCache: Scanning file cache for directory 'X:/SpaceGame/Saved/Collections/' took 0.00s
+[2022.05.17-01.33.19:892][  0]LogFileCache: Scanning file cache for directory 'X:/SpaceGame/Content/Developers/chalo/Collections/' took 0.00s
+[2022.05.17-01.33.19:892][  0]LogFileCache: Scanning file cache for directory 'X:/SpaceGame/Content/Collections/' took 0.00s
+[2022.05.17-01.33.20:263][  0]LogEngine: Initializing Engine...
+[2022.05.17-01.33.20:277][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2022.05.17-01.33.20:280][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.05.17-01.33.20:547][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.05.17-01.33.20:547][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.17-01.33.20:600][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.17-01.33.20:662][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.05.17-01.33.20:664][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.05.17-01.33.20:730][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.05.17-01.33.20:731][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.05.17-01.33.20:731][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.05.17-01.33.20:731][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.05.17-01.33.20:731][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.05.17-01.33.20:731][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.17-01.33.20:731][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.17-01.33.20:732][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.17-01.33.20:732][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.17-01.33.20:732][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.17-01.33.20:732][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.17-01.33.20:732][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.17-01.33.20:732][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.17-01.33.20:732][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.17-01.33.20:732][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.17-01.33.20:732][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.17-01.33.20:793][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.17-01.33.20:826][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Bose Color II SoundLink Stereo)
+[2022.05.17-01.33.20:827][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.17-01.33.20:828][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.17-01.33.20:828][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.17-01.33.20:829][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.05.17-01.33.20:829][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.05.17-01.33.20:830][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.05.17-01.33.20:830][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.05.17-01.33.20:830][  0]LogInit: FAudioDevice initialized.
+[2022.05.17-01.33.20:830][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.05.17-01.33.20:831][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.05.17-01.33.20:831][  0]LogInit: Texture streaming: Enabled
+[2022.05.17-01.33.20:927][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.1-19764885+++UE5+Release-5.0
+[2022.05.17-01.33.20:952][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.05.17-01.33.21:028][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.05.17-01.33.21:065][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.05.17-01.33.21:065][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2022.05.17-01.33.23:170][  0]LogLiveCoding: Display: First instance in process group "UE_SpaceGame_0x795e2312", spawning console
+[2022.05.17-01.33.23:170][  0]LogLiveCoding: Display: Waiting for server
+[2022.05.17-01.33.23:170][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.05.17-01.33.23:199][  0]LogInit: Transaction tracking system initialized
+[2022.05.17-01.33.23:387][  0]BlueprintLog: New page: Editor Load
+[2022.05.17-01.33.24:081][  0]LocalizationService: Localization service is disabled
+[2022.05.17-01.33.24:198][  0]TimingProfiler: Initialize
+[2022.05.17-01.33.24:198][  0]TimingProfiler: OnSessionChanged
+[2022.05.17-01.33.24:198][  0]LoadingProfiler: Initialize
+[2022.05.17-01.33.24:198][  0]LoadingProfiler: OnSessionChanged
+[2022.05.17-01.33.24:198][  0]NetworkingProfiler: Initialize
+[2022.05.17-01.33.24:198][  0]NetworkingProfiler: OnSessionChanged
+[2022.05.17-01.33.24:198][  0]MemoryProfiler: Initialize
+[2022.05.17-01.33.24:198][  0]MemoryProfiler: OnSessionChanged
+[2022.05.17-01.33.26:133][  0]LogFileCache: Scanning file cache for directory 'X:/SpaceGame/Content/' took 0.01s
+[2022.05.17-01.33.26:133][  0]TimeClock: Display: TimeClock module startup.
+[2022.05.17-01.33.26:133][  0]TimeClock: Display: TimeClock window button added.
+[2022.05.17-01.33.26:137][  0]TimeClock: Display: Starting TimeClock for known project named: SpaceGame
+[2022.05.17-01.33.26:680][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.05.17-01.33.27:291][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.05.17-01.33.27:293][  0]SourceControl: Source control is disabled
+[2022.05.17-01.33.27:293][  0]LogUnrealEdMisc: Loading editor; pre map load, took 39.868
+[2022.05.17-01.33.27:294][  0]Cmd: MAP LOAD FILE="../../../../../SpaceGame/Content/SpaceGame/GameModeComponents/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.05.17-01.33.27:294][  0]LightingResults: New page: Lighting Build
+[2022.05.17-01.33.27:301][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.05.17-01.33.27:301][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.17-01.33.27:301][  0]MapCheck: New page: Map Check
+[2022.05.17-01.33.27:301][  0]LightingResults: New page: Lighting Build
+[2022.05.17-01.33.27:306][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.17-01.33.27:310][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.05.17-01.33.27:519][  0]LogStaticMesh: StaticMesh /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere should be resaved to improve async compilation performance.
+[2022.05.17-01.33.27:680][  0]LogStaticMesh: StaticMesh /Game/StarterContent/Shapes/Shape_Cone.Shape_Cone should be resaved to improve async compilation performance.
+[2022.05.17-01.33.27:748][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestLevel'.
+[2022.05.17-01.33.27:748][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.17-01.33.27:748][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.17-01.33.27:749][  0]LogAIModule: Creating AISystem for world TestLevel
+[2022.05.17-01.33.27:757][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.17-01.33.27:766][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.05.17-01.33.27:766][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.17-01.33.27:766][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.122ms to complete.
+[2022.05.17-01.33.27:766][  0]LogFileHelpers: Loading map 'TestLevel' took 0.473
+[2022.05.17-01.33.27:787][  0]LogUnrealEdMisc: Total Editor Startup Time, took 40.362
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: ================================================
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.05.17-01.33.27:787][  0]LogShaderCompilers: Display: ================================================
+[2022.05.17-01.33.28:022][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.05.17-01.33.28:110][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2022.05.17-01.33.28:680][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:680][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:688][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:688][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:696][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:697][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:703][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:703][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:716][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:716][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:723][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:723][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:729][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:729][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:733][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:733][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:737][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:737][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.28:742][  0]LogPakFile: Display: Mounted Pak file 'X:/Epic Games/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.05.17-01.33.28:742][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.05.17-01.33.29:291][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-01.33.29:295][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-01.33.29:300][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-01.33.29:304][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.17-01.33.29:511][  0]LogSlate: Took 0.004462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.05.17-01.33.29:518][  0]LogSlate: Took 0.003447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.17-01.33.29:524][  0]LogSlate: Took 0.005974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.05.17-01.33.29:739][  0]LogStall: Startup...
+[2022.05.17-01.33.29:741][  0]LogStall: Startup complete.
+[2022.05.17-01.33.29:790][  0]LogLoad: (Engine Initialization) Total time: 42.37 seconds
+[2022.05.17-01.33.29:790][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.05.17-01.33.29:880][  0]LogAssetRegistry: Asset discovery search completed in 25.7967 seconds
+[2022.05.17-01.33.29:890][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2022.05.17-01.33.29:915][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.05.17-01.33.29:925][  0]TimeClock: Warning: TimeClock Alarm started
+[2022.05.17-01.33.30:822][ 30]LogSlate: Took 0.003186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.05.17-01.33.33:149][248]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/SpaceGame/RandomGeneratorFunctions.RandomGeneratorFunctions) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.05.17-01.33.33:149][248]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SpaceGame/RandomGeneratorFunctions.RandomGeneratorFunctions
+[2022.05.17-01.33.33:149][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.17-01.33.34:073][248]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/SpaceGame/SpaceActors/Stars/Star.Star) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.05.17-01.33.34:073][248]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-01.33.34:074][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.17-01.33.34:444][248]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/SpaceGame/SpaceActors/Planets/Planet.Planet) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.05.17-01.33.34:444][248]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.17-01.33.34:445][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.17-01.33.34:781][248]LogPackageName: Warning: FPackagePath::TryFromMountedName was passed an ObjectPath (/Game/SpaceGame/UI/PlanetUI.PlanetUI) rather than a PackageName or FilePath; it will be converted to the PackageName. Accepting ObjectPaths is deprecated behavior and will be removed in a future release; TryFromMountedName will fail on ObjectPaths.
+[2022.05.17-01.33.34:781][248]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/SpaceGame/UI/PlanetUI.PlanetUI
+[2022.05.17-01.33.34:782][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.17-01.33.34:789][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.17-01.33.34:794][248]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2022.05.17-01.33.35:112][248]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.17-01.33.35:112][248]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.05.17-01.33.35:214][248]LogSlate: Took 0.004413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.05.17-01.33.35:223][248]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2022.05.17-01.33.35:229][248]LogSlate: Took 0.005331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.05.17-01.35.01:760][391]LogDerivedDataCache: C:/Users/chalo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.571 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.17-01.37.07:530][884]LogSlate: Took 0.009286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.17-01.37.38:893][677]LogContentBrowser: Deferred new asset file creation: PlanetUI1
+[2022.05.17-01.37.38:898][677]LogContentBrowser: Creating deferred item: PlanetUI1
+[2022.05.17-01.37.38:918][678]LogContentBrowser: Renaming the item being created (Deferred Item: PlanetUI1).
+[2022.05.17-01.37.43:599][228]LogContentBrowser: Attempting asset rename: PlanetUI1 -> StarUI
+[2022.05.17-01.37.43:694][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.05.17-01.37.43:711][228]LogContentBrowser: End creating deferred item PlanetUI1
+[2022.05.17-01.37.51:671][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.05.17-01.37.51:739][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/UI/StarUI" FILE="../../../../../SpaceGame/Content/SpaceGame/UI/StarUI.uasset" SILENT=true
+[2022.05.17-01.37.51:747][144]LogPackageLocalizationCache: Processed 31 localized package path(s) for 1 prioritized culture(s) in 0.008147 seconds
+[2022.05.17-01.37.51:767][144]LogSavePackage: Moving output files for package: /Game/SpaceGame/UI/StarUI
+[2022.05.17-01.37.51:767][144]LogSavePackage: Moving '../../../../../SpaceGame/Saved/StarUI0AE8F0894D90DEEDED97E7B477FA64B3.tmp' to '../../../../../SpaceGame/Content/SpaceGame/UI/StarUI.uasset'
+[2022.05.17-01.37.51:785][144]AssetCheck: New page: Asset Save: StarUI
+[2022.05.17-01.37.51:785][144]LogContentValidation: Display: Validating WidgetBlueprint /Game/SpaceGame/UI/StarUI.StarUI
+[2022.05.17-01.38.35:003][224]LogSlate: Took 0.009060 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.05.17-01.40.37:660][ 67]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2022.05.17-01.40.37:671][ 67]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2022.05.17-01.40.37:685][ 68]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2022.05.17-01.40.41:077][417]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> StarClassification
+[2022.05.17-01.40.41:078][417]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2022.05.17-01.43.16:329][127]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/SpaceGame/SpaceActors/Stars/StarClassification.StarClassification
+[2022.05.17-01.44.10:916][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/StarClassification" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/StarClassification.uasset" SILENT=true
+[2022.05.17-01.44.10:917][611]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/StarClassification
+[2022.05.17-01.44.10:917][611]LogSavePackage: Moving '../../../../../SpaceGame/Saved/StarClassification23FDEF8145FA2E27E52E28986467EFDA.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/StarClassification.uasset'
+[2022.05.17-01.44.10:932][611]AssetCheck: New page: Asset Save: StarClassification
+[2022.05.17-01.44.10:932][611]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/Stars/StarClassification.StarClassification
+[2022.05.17-01.44.11:083][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/StarClassification" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/StarClassification.uasset" SILENT=true
+[2022.05.17-01.44.11:084][623]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/StarClassification
+[2022.05.17-01.44.11:084][623]LogSavePackage: Moving '../../../../../SpaceGame/Saved/StarClassificationB3B4E24A4EA0739D7BEC07B12AF7D9D7.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/StarClassification.uasset'
+[2022.05.17-01.44.11:098][623]AssetCheck: New page: Asset Save: StarClassification
+[2022.05.17-01.44.11:098][623]LogContentValidation: Display: Validating UserDefinedEnum /Game/SpaceGame/SpaceActors/Stars/StarClassification.StarClassification
+[2022.05.17-01.44.17:166][230]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2022.05.17-01.44.17:172][230]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2022.05.17-01.44.17:181][231]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2022.05.17-01.44.20:307][586]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> Star_S
+[2022.05.17-01.44.20:327][586]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2022.05.17-01.44.21:809][759]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/SpaceGame/SpaceActors/Stars/Star_S.Star_S
+[2022.05.17-01.45.06:227][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.05.17-01.45.06:231][463]TimeClock: Display: TimeClock stats updated for project named: SpaceGame
+[2022.05.17-01.45.06:237][463]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SpaceGame/GameModeComponents/TestLevel_Auto1
+[2022.05.17-01.45.06:237][463]LogSavePackage: Moving '../../../../../SpaceGame/Saved/TestLevel_Auto15881C28744F6CA9A79F6B6B12259B388.tmp' to '../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/GameModeComponents/TestLevel_Auto1.umap'
+[2022.05.17-01.45.06:244][463]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/SpaceGame/GameModeComponents/TestLevel' took 0.088
+[2022.05.17-01.45.06:244][463]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.088
+[2022.05.17-01.45.06:244][463]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SpaceGame/SpaceActors/Stars/Star] ([2] browsable assets)...
+[2022.05.17-01.45.06:254][463]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star]
+[2022.05.17-01.45.06:254][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/SpaceGame/SpaceActors/Stars/Star]
+[2022.05.17-01.45.06:254][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.05.17-01.45.06:294][463]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_Auto1
+[2022.05.17-01.45.06:300][463]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star_Auto13B69C5F7440D26A6705B54B315D62B3B.tmp' to '../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_Auto1.uasset'
+[2022.05.17-01.45.06:301][463]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SpaceGame/SpaceActors/Stars/Star_S] ([1] browsable assets)...
+[2022.05.17-01.45.06:301][463]OBJ SavePackage: Finished generating thumbnails for package [/Game/SpaceGame/SpaceActors/Stars/Star_S]
+[2022.05.17-01.45.06:301][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star_S" FILE="../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_S_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2022.05.17-01.45.06:301][463]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_S_Auto1
+[2022.05.17-01.45.06:301][463]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star_S_Auto11386C2414EBE19356F3091B3062C0ACB.tmp' to '../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_S_Auto1.uasset'
+[2022.05.17-01.45.06:302][463]LogFileHelpers: Auto-saving content packages took 0.058
+[2022.05.17-01.47.42:663][160]LogSlate: Window 'Star_S' being destroyed
+[2022.05.17-01.48.09:974][406]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.17-01.49.29:922][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star_S.uasset" SILENT=true
+[2022.05.17-01.49.29:924][845]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star_S
+[2022.05.17-01.49.29:924][845]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star_SCADF0EB7490940AD635677946F912DA9.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star_S.uasset'
+[2022.05.17-01.49.29:936][845]AssetCheck: New page: Asset Save: Star_S
+[2022.05.17-01.49.29:936][845]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Stars/Star_S.Star_S
+[2022.05.17-01.50.59:164][789]BlueprintLog: New page: Compile Star
+[2022.05.17-01.50.59:263][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2022.05.17-01.50.59:708][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-01.50.59:744][821]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-01.50.59:744][821]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star61A8A1524209BBF3F84BF2A1FF4FF2E4.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-01.50.59:759][821]AssetCheck: New page: Asset Save: Star
+[2022.05.17-01.50.59:759][821]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-01.53.28:914][268]LogWindows: LaunchURL https://docs.unrealengine.com/5.0/en//Engine/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2022.05.17-01.55.06:262][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.05.17-01.55.06:271][919]TimeClock: Display: TimeClock stats updated for project named: SpaceGame
+[2022.05.17-01.55.06:278][919]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SpaceGame/GameModeComponents/TestLevel_Auto2
+[2022.05.17-01.55.06:278][919]LogSavePackage: Moving '../../../../../SpaceGame/Saved/TestLevel_Auto2C7E6DF4B4544EE7FF6885AB9DFDBC81C.tmp' to '../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/GameModeComponents/TestLevel_Auto2.umap'
+[2022.05.17-01.55.06:283][919]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/SpaceGame/GameModeComponents/TestLevel' took 0.076
+[2022.05.17-01.55.06:283][919]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.076
+[2022.05.17-01.55.06:283][919]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SpaceGame/SpaceActors/Stars/Star] ([2] browsable assets)...
+[2022.05.17-01.55.06:293][919]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star]
+[2022.05.17-01.55.06:293][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/SpaceGame/SpaceActors/Stars/Star]
+[2022.05.17-01.55.06:293][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.05.17-01.55.06:329][919]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_Auto2
+[2022.05.17-01.55.06:329][919]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star_Auto2AFECEFC240B409B4BF0DAC99FFC14A59.tmp' to '../../../../../SpaceGame/Saved/Autosaves/Game/SpaceGame/SpaceActors/Stars/Star_Auto2.uasset'
+[2022.05.17-01.55.06:330][919]LogFileHelpers: Auto-saving content packages took 0.047
+[2022.05.17-01.56.21:700][274]BlueprintLog: New page: Compile Star
+[2022.05.17-01.56.21:815][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.05.17-01.58.40:760][732]BlueprintLog: New page: Compile Star
+[2022.05.17-01.58.40:865][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.05.17-01.58.41:483][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-01.58.41:522][783]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-01.58.41:522][783]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star60EAAC634B2EE049A5A64794E0EDEACC.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-01.58.41:535][783]AssetCheck: New page: Asset Save: Star
+[2022.05.17-01.58.41:535][783]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-01.58.57:000][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-01.58.57:039][541]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-01.58.57:039][541]LogSavePackage: Moving '../../../../../SpaceGame/Saved/StarE01AD5AD4D5D3F6AC437EF9843972217.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-01.58.57:062][541]AssetCheck: New page: Asset Save: Star
+[2022.05.17-01.58.57:062][541]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-02.00.01:902][655]BlueprintLog: New page: Compile Star
+[2022.05.17-02.00.02:013][655]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.05.17-02.00.02:325][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-02.00.02:365][677]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-02.00.02:366][677]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star73D166164F71287520AAC0AF0FB77562.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-02.00.02:379][677]AssetCheck: New page: Asset Save: Star
+[2022.05.17-02.00.02:379][677]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-02.00.07:142][186]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/SpaceGame/SpaceActors/Stars/Star_S.Star_S
+[2022.05.17-02.00.21:200][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star_S" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star_S.uasset" SILENT=true
+[2022.05.17-02.00.21:202][761]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star_S
+[2022.05.17-02.00.21:202][761]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star_SD85498A64361B872B7DE1195A1355143.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star_S.uasset'
+[2022.05.17-02.00.21:215][761]AssetCheck: New page: Asset Save: Star_S
+[2022.05.17-02.00.21:216][761]LogContentValidation: Display: Validating UserDefinedStruct /Game/SpaceGame/SpaceActors/Stars/Star_S.Star_S
+[2022.05.17-02.01.23:345][602]BlueprintLog: New page: Compile Star
+[2022.05.17-02.01.23:458][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2022.05.17-02.01.23:892][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-02.01.23:933][631]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-02.01.23:934][631]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star28C0BECF49B594D3775689B53D970D7E.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-02.01.23:955][631]AssetCheck: New page: Asset Save: Star
+[2022.05.17-02.01.23:955][631]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-02.04.24:869][390]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4735.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.24:869][390]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4736.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.24:869][390]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4734.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.24:872][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_412.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.24:873][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_413.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.24:874][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_411.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.24:877][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_376.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.24:878][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_375.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.24:879][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_377.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:038][753]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4740.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:038][753]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4741.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:038][753]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4742.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:041][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_417.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:042][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_418.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:043][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_419.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:046][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_382.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:047][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_383.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.28:048][753]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_381.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:748][ 35]BlueprintLog: New page: Compile Planet
+[2022.05.17-02.04.30:862][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.05.17-02.04.30:871][ 35]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4747.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:871][ 35]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4746.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:871][ 35]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4748.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:873][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_424.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:875][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_423.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:876][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_425.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:879][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_387.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:881][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_388.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:882][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_389.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:909][ 35]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4759.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:909][ 35]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4758.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:909][ 35]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4760.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:912][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_436.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:913][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_435.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:914][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_437.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:917][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_400.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:918][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_399.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.30:919][ 35]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_401.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:351][921]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4770.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:351][921]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4771.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:351][921]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4772.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:354][921]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_447.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:355][921]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_448.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:356][921]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_449.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:360][921]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_412.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:361][921]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_413.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.39:362][921]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_411.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:338][438]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4777.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:338][438]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4778.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:338][438]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4776.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:341][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_454.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:342][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_455.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:343][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_453.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:347][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_417.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:348][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_418.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.44:349][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_419.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:197][567]LogSlate: Window 'Delete Variable' being destroyed
+[2022.05.17-02.04.58:220][567]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4782.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:220][567]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4783.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:220][567]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4784.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:223][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_459.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:225][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_460.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:226][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_461.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:230][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_424.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:231][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_425.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.04.58:232][567]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_423.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:762][110]LogSlate: Window 'Delete Variable' being destroyed
+[2022.05.17-02.05.05:778][110]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4788.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:778][110]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4789.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:778][110]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4790.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:781][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_465.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:782][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_466.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:784][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_467.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:787][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_429.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:789][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_430.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.05:790][110]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_431.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:280][744]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4794.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:280][744]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4795.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:280][744]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4796.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:283][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_471.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:284][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_472.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:285][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_473.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:289][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_435.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:290][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_436.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.05.55:291][744]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_437.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:782][438]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4800.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:783][438]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4801.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:783][438]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4802.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:785][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_477.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:786][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_478.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:787][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_479.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:791][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_441.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:792][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_442.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.10:793][438]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_443.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:179][587]BlueprintLog: New page: Compile Planet
+[2022.05.17-02.06.12:298][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.05.17-02.06.12:306][587]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4806.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:307][587]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4807.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:307][587]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4808.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:309][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_483.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:310][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_484.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:312][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_485.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:315][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_447.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:316][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_448.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:317][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_449.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:346][587]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4818.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:346][587]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4820.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:346][587]LogActorComponent: RegisterComponentWithWorld: (/Game/SpaceGame/GameModeComponents/TestLevel.TestLevel:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_4819.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:349][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_495.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:350][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_497.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:351][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_496.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:354][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_460.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:355][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_459.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:357][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.DESTROYED_Planet_C_CHILDACTOR_461.Scene) Trying to register component with IsValid() == false. Aborting.
+[2022.05.17-02.06.12:854][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Planets/Planet" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset" SILENT=true
+[2022.05.17-02.06.12:876][626]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Planets/Planet
+[2022.05.17-02.06.12:876][626]LogSavePackage: Moving '../../../../../SpaceGame/Saved/PlanetA8E362D44F658FD1487265BD99A17DDD.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Planets/Planet.uasset'
+[2022.05.17-02.06.12:890][626]AssetCheck: New page: Asset Save: Planet
+[2022.05.17-02.06.12:890][626]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Planets/Planet.Planet
+[2022.05.17-02.08.59:151][960]BlueprintLog: New page: Compile Star
+[2022.05.17-02.08.59:157][960]LogBlueprint: Error: [AssetLog] X:\SpaceGame\Content\SpaceGame\SpaceActors\Stars\Star.uasset: [Compiler] In use pin  Num Of Planets Out  no longer exists on node  Randomly Generate System Info . Please refresh node or break links to remove pin.
+[2022.05.17-02.08.59:256][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.05.17-02.08.59:690][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-02.08.59:731][990]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-02.08.59:731][990]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star7F3B27A2445DA578DA6E1BA826F9B100.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-02.08.59:746][990]AssetCheck: New page: Asset Save: Star
+[2022.05.17-02.08.59:746][990]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-02.09.06:355][695]BlueprintLog: New page: Compile Star
+[2022.05.17-02.09.06:361][695]LogBlueprint: Error: [AssetLog] X:\SpaceGame\Content\SpaceGame\SpaceActors\Stars\Star.uasset: [Compiler] In use pin  Num Of Planets Out  no longer exists on node  Randomly Generate System Info . Please refresh node or break links to remove pin.
+[2022.05.17-02.09.06:446][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.05.17-02.09.21:466][222]BlueprintLog: New page: Compile Star
+[2022.05.17-02.09.21:564][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2022.05.17-02.09.22:115][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-02.09.22:156][258]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-02.09.22:156][258]LogSavePackage: Moving '../../../../../SpaceGame/Saved/StarB116A0534BE440EFB1130387EE9C748A.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-02.09.22:169][258]AssetCheck: New page: Asset Save: Star
+[2022.05.17-02.09.22:169][258]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-02.12.19:957][609]LogEditorTransaction: Undo Move Nodes
+[2022.05.17-02.17.53:230][826]BlueprintLog: New page: Compile Star
+[2022.05.17-02.17.53:353][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.05.17-02.17.54:813][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-02.17.54:857][971]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-02.17.54:857][971]LogSavePackage: Moving '../../../../../SpaceGame/Saved/Star6C3B79BF478C48F127E04C872F4617C1.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-02.17.54:871][971]AssetCheck: New page: Asset Save: Star
+[2022.05.17-02.17.54:871][971]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-02.19.16:189][591]LogEditorTransaction: Undo Move Nodes
+[2022.05.17-02.20.05:165][634]BlueprintLog: New page: Compile Star
+[2022.05.17-02.20.05:277][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.05.17-02.20.05:759][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpaceGame/SpaceActors/Stars/Star" FILE="../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset" SILENT=true
+[2022.05.17-02.20.05:803][663]LogSavePackage: Moving output files for package: /Game/SpaceGame/SpaceActors/Stars/Star
+[2022.05.17-02.20.05:803][663]LogSavePackage: Moving '../../../../../SpaceGame/Saved/StarCE7866414B1AA869DE21799704DF1A65.tmp' to '../../../../../SpaceGame/Content/SpaceGame/SpaceActors/Stars/Star.uasset'
+[2022.05.17-02.20.05:816][663]AssetCheck: New page: Asset Save: Star
+[2022.05.17-02.20.05:816][663]LogContentValidation: Display: Validating Blueprint /Game/SpaceGame/SpaceActors/Stars/Star.Star
+[2022.05.17-02.21.07:801][ 27]BlueprintLog: New page: Collapse to Function
+[2022.05.17-02.21.15:536][822]BlueprintLog: New page: Compile Star
+[2022.05.17-02.21.15:550][822]LogBlueprint: Error: [AssetLog] X:\SpaceGame\Content\SpaceGame\SpaceActors\Stars\Star.uasset: [Compiler] The current value of the ' Event ' pin is invalid: Unsupported type Delegate on pin Delegate
+[2022.05.17-02.21.15:644][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.05.17-02.24.42:341][ 67]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.05.17-02.24.42:415][ 67]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.073 s
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: === Handled ensure: ===
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: 
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: Ensure condition failed: !bGraphDataInvalid [File:D:\build\++UE5\Sync\Engine\Source\Editor\GraphEditor\Private\SGraphPin.cpp] [Line: 858]
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: The Graph Pin Object has been invalidated. Someone is keeping a hard ref on the SGraphPin (SGraphPinKnot [SGraphNodeKnot.cpp(406)]). See InvalidateGraphData for more info
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: Stack: 
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd4ebd59ab UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd4ebd5093 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd4eadbd48 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd4ec0cf8c UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd4ec0af5d UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e4565 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6ac9617f UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6ac95fe0 UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e4565 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e470b UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6ad1534c UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6ad1534c UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e470b UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e4565 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e470b UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6ac95fe0 UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e4565 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e470b UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6ad1534c UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e470b UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e4565 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e470b UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8569 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e470b UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e4565 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e39cd UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e78e5 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8684 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a48ce1a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6a5e8945 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6aa4904e UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6aa74787 UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6aa49b14 UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6aa9af99 UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffd6aa9a728 UnrealEditor-Slate.dll!UnknownFunction []
+[2022.05.17-02.24.42:415][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff703468e7d UnrealEditor.exe!UnknownFunction []
+[2022.05.17-02.24.42:416][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff703480d9c UnrealEditor.exe!UnknownFunction []
+[2022.05.17-02.24.42:416][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff703480e8a UnrealEditor.exe!UnknownFunction []
+[2022.05.17-02.24.42:416][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff703483c4d UnrealEditor.exe!UnknownFunction []
+[2022.05.17-02.24.42:416][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff703495534 UnrealEditor.exe!UnknownFunction []
+[2022.05.17-02.24.42:416][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff7034986e6 UnrealEditor.exe!UnknownFunction []
+[2022.05.17-02.24.42:416][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffe15fd7034 KERNEL32.DLL!UnknownFunction []
+[2022.05.17-02.24.42:416][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffe17ee2651 ntdll.dll!UnknownFunction []
+[2022.05.17-02.24.42:416][ 67]LogOutputDevice: Error: 
